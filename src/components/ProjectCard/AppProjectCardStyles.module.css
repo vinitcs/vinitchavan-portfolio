@@ -1,4 +1,25 @@
-.appImg{
+.appImg {
+     /* background-color: antiquewhite; */
      max-width: 250px;
      align-self: center;
+}
+
+
+@media(width<=800px) {
+     a {
+          width: 10rem;
+
+          .appImg {
+               /* background-color: antiquewhite; */
+               max-width: 250px;
+               align-self: center;
+          }
+
+
+          /* h3 {
+               font-size: 8px;
+               font-weight: bolder;
+          } */
+
+     }
 }

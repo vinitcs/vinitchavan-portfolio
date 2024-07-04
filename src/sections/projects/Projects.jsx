@@ -16,7 +16,7 @@ function Projects() {
             <div className={styles.projectsContainer}>
                 <AppProjectCard src={eviapp} link={"https://github.com/vinitcs/EVI-app"} title={"EVIApp"} description={"Mobile app for Exposys Data Labs virtual internship registration and get notify on applying any internship"} />
 
-                <AppProjectCard src={farm2tech} link={"https://github.com/vinitcs/farm2tech-monthly-subscription-app-ui"} title={"farm2tech-monthly-subscription-app-ui"} description={"Introducing Farm2Tech monthly subscriptions for fresh farm products—browse, select, and subscribe seamlessly with our user-friendly app"} />
+                <AppProjectCard src={farm2tech} link={"https://github.com/vinitcs/farm2tech-monthly-subscription-app-ui"} title={"farm2tech monthly subscription app ui"} description={"Introducing Farm2Tech monthly subscriptions for fresh farm products—browse, select, and subscribe seamlessly with our user-friendly app"} />
 
                 <WebProjectCard src={bms} link={"https://github.com/vinitcs/Bus-Management-System"} title={"Bus Management System"} description={"This is the College Bus Management Website where students can view their bus card and bus-related details through an online mode, to over physical card system"} />
             </div>

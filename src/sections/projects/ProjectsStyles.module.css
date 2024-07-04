@@ -20,7 +20,7 @@
      /* } */
 
      a {
-          /* background-color: aquamarine; */
+          /* background-color:blueviolet; */
           width: max-content;
           /* display: flex; */
           /* flex-wrap: wrap; */
@@ -42,7 +42,7 @@
           transform: scale(1.05);
      }
 
-     
+
 }
 
 .projectsContainer {
@@ -58,5 +58,24 @@
           flex-wrap: wrap;
           justify-content: space-evenly;
           padding: 0 30px;
+     }
+}
+
+
+@media(width <=800px) {
+     .container {
+          a {
+               /* background-color: antiquewhite; */
+               width: 10rem;
+
+               h3 {
+                    font-size: 15px;
+               }
+          }
+     }
+
+     .projectsContainer {
+          /* background-color: aquamarine; */
+          width: 100%;
      }
 }

@@ -7,11 +7,12 @@
      text-align: center;
      height: 100dvh;
      min-height: 500px;
+     /* background-color: aqua; */
 
      .profileBorder {
           width: 350px;
           height: 350px;
-          border-radius: 200px;
+          border-radius: 100%;
           border-width: 1.6px;
           border-style: dashed;
           display: flex;
@@ -121,5 +122,39 @@
                max-width: 400px;
                width: 400px;
           }
+     }
+}
+
+@media(width<=800px) {
+     .container {
+          .profileBorder {
+               width: 250px;
+               height: 250px;
+               border-radius: 100%;
+               border-width: 1.6px;
+               border-style: dashed;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               border-color: var(--border-color);
+               border-width: 2px;
+
+               .profileImg {
+                    /* max-width: 200px; */
+                    width: 235px;
+                    height: 235px;
+                    border-radius: 100%;
+
+               }
+          }
+     }
+
+     .colorMode {
+          position: absolute;
+          right: -20px;
+          top: 10px;
+          /* left: 90; */
+          width: 20px;
+     
      }
 }
