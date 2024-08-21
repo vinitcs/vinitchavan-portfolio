@@ -14,11 +14,39 @@ function Projects() {
         <section id='projects' className={styles.container}>
             <h1 className='sectionTitle'>Projects</h1>
             <div className={styles.projectsContainer}>
-                <AppProjectCard src={eviapp} link={"https://github.com/vinitcs/EVI-app"} title={"EVIApp"} description={"Mobile app for Exposys Data Labs virtual internship registration and get notify on applying any internship"} />
+                <AppProjectCard
+                    firstBtnLogo={'▶️'}
+                    firstBtnTxt={'Demo'}
+                    src={eviapp}
+                    title={"EVIApp (Internship)"}
+                    description={"Developed an Exposys Virtual Internship (EVI) registration app where on applying any domain student can get notification within the app"}
+                    expLetterBtn={"block"}
+                    outputLink={"https://drive.google.com/file/d/1dVOUa5LBrvtnMc3-YDRyTy75dgFoTJQM/view?usp=sharing"}
+                    expLetterLink={"https://drive.google.com/file/d/1uZm91tsFrcIFjgyY6edJ_N1f-EjO6ma0/view?usp=sharing"}
+                    githubLink={"https://github.com/vinitcs/EVI-app"}
+                />
 
-                <AppProjectCard src={farm2tech} link={"https://github.com/vinitcs/farm2tech-monthly-subscription-app-ui"} title={"farm2tech monthly subscription app ui"} description={"Introducing Farm2Tech monthly subscriptions for fresh farm products—browse, select, and subscribe seamlessly with our user-friendly app"} />
+                <AppProjectCard
+                    firstBtnLogo={'📍'}
+                    firstBtnTxt={'Link'}
+                    src={farm2tech}
+                    title={"Farm2tech dairy app ui"}
+                    description={"An app listed with dairy products can be added to the cart, with one-time order and monthly subscription"}
+                    expLetterBtn={"none"}
+                    outputLink={"https://drive.google.com/file/d/1XkZ8S83jSsYsRZoFsBWzo7fiw9KpEUHG/view?usp=sharing"}
+                    githubLink={"https://github.com/vinitcs/farm2tech-monthly-subscription-app-ui"}
+                />
 
-                <WebProjectCard src={bms} link={"https://github.com/vinitcs/Bus-Management-System"} title={"Bus Management System"} description={"This is the College Bus Management Website where students can view their bus card and bus-related details through an online mode, to over physical card system"} />
+                <WebProjectCard
+                    firstBtnLogo={'📍'}
+                    firstBtnTxt={'Link'}
+                    src={bms}
+                    title={"GIT Bus Card"}
+                    description={"A portal that streamlines bus card access for college students, minimize physical card carry, reducing card loss, history of previous paid fees dates, and timely next fee due date alert via email"}
+                    expLetterBtn={"none"}
+                    outputLink={"https://gitbuscard.netlify.app/"}
+                    githubLink={"https://github.com/vinitcs/GIT-Bus-Card-Management"}
+                />
             </div>
         </section>
     );

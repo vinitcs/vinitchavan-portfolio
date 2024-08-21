@@ -25,7 +25,7 @@ function Hero() {
                     <img className={styles.profileImg} src={profileImg} alt={heroImg} />
                </div>
                <div className={styles.info}>
-                    <h1><span className={styles.greetings}>Hi,<span className={styles.wave}>👋🏻</span>I'm</span>
+                    <h1><span className={styles.greetings}>Hi<span className={styles.wave}>👋🏻</span>, I'm</span>
                         {/* <span className={styles.contraction}>I'm</span> */}
                         Vinit<br />Chavan
                     </h1>
@@ -57,7 +57,7 @@ function Hero() {
                     </span>
                     <p className={styles.description}>With a passion for developing modern React web apps for commercial businessness.</p>
                     <a href={cv} target='_blank'>
-                         <button className="hover" >Resume</button>
+                         <button className={styles.resumeBtn} >Resume</button>
                     </a>
                </div>
           </section>

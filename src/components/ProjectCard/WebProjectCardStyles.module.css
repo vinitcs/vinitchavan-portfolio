@@ -1,25 +1,96 @@
-.webImg {
-     width: 30rem;
-     height: 16rem;
-     /* max-width: 900px; */
-     align-self: center;
+.webProjectCard {
+     /* background-color: blueviolet; */
+     width: 50%;
+     height: max-content;
+     padding: 6px;
+     display: flex;
+     flex-direction: column;
+     gap: 0.3rem;
+     text-decoration: none;
+
+     .webImg {
+          width: 32rem;
+          height: 18rem;
+          align-self: center;
+          filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
+          transition: transform 500ms ease-in-out;
+     }
+
+     .webImg:hover {
+          transform: scale(1.02);
+     }
+
+
+     h3 {
+          /* background-color: antiquewhite; */
+          font-size: 1.3rem;
+          color: var(--hover-color);
+          font-weight: bolder;
+          text-align: center;
+     }
+
+     p {
+          font-size: 18px;
+          text-align: center;
+          text-wrap: wrap;
+     }
+
+     .navigatingBtn {
+          /* background-color: aqua; */
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          height: max-content;
+          gap: 0.6rem;
+          justify-content: center;
+          margin-top: 0.6rem;
+
+          .actionBtn {
+               background-color: var(--actionbtn-color);
+               color: var(--btn-text-color);
+               border: none;
+               border-radius: 8px;
+               padding: 0.4rem 1rem;
+               text-decoration: none;
+               font-family: bold;
+               font-size: 12px;
+               font-weight: 500;
+               /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+               font-family: 'Roboto Mono', monospace;
+               cursor: pointer;
+          }
+
+          .actionBtn:hover {
+               background-color: var(--actionbtn-hover-color);
+          }
+     }
 }
 
 @media(width<=800px) {
-     a {
-          width: 20rem;
+     .webProjectCard {
+          /* background-color: blueviolet; */
+          width: 90%;
 
           .webImg {
                /* background-color: antiquewhite; */
-               width: 310px;
-               height: 180px;
+               width: 20rem;
+               height: 11.6rem;
                align-self: center;
           }
 
-
-          /* h3 {
-               font-size: 30px;
+          h3 {
+               /* background-color: antiquewhite; */
+               font-size: 1rem;
                font-weight: bolder;
-          } */
+               text-align: center;
+          }
+
+          p {
+               /* background-color: antiquewhite; */
+               /* width: 100%; */
+               font-size: 14px;
+               text-align: center;
+               text-wrap: wrap;
+          }
      }
 }

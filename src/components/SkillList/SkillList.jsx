@@ -1,15 +1,41 @@
 import React from 'react';
+import styles from "./SkillListStyles.module.css";
+import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoNodejs, IoLogoGithub } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
+import { MdGeneratingTokens } from "react-icons/md";
+import { SiReact, SiExpress, SiMongodb, SiMysql, SiPostman, SiCanva, SiGit } from "react-icons/si";
 
-function SkillList({ src, skill }) {
 
-    
+function SkillList({ iconName, skill }) {
+    // Create a mapping between iconName and actual icons
+    const iconMapping = {
+        html5: IoLogoHtml5,
+        css3: IoLogoCss3,
+        javascript: IoLogoJavascript,
+        reactjs: FaReact,
+        reactnative: SiReact,
+        nodejs: IoLogoNodejs,
+        expressjs: SiExpress,
+        restapi: SiExpress,
+        mysql: SiMysql,
+        mongodb: SiMongodb,
+        jwt: MdGeneratingTokens,
+        git: SiGit,
+        github: IoLogoGithub,
+        postman: SiPostman,
+     //    figma: IoLogoFigma,
+        canva: SiCanva,
+    };
 
-     return (
-          <span>
-               <img src={src} alt='Checkmark icon' />
-               <p>{skill}</p>
-          </span>
-     )
+    // Get the appropriate icon component based on the iconName prop
+    const IconComponent = iconMapping[iconName.toLowerCase()];
+
+    return (
+        <span className={styles.skillCell}>
+            {IconComponent && <IconComponent />}
+            <p>{skill}</p>
+        </span>
+    );
 }
 
-export default SkillList
+export default SkillList;

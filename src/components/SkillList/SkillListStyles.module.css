@@ -1,0 +1,9 @@
+.skillCell{
+     background-color:#007ef560;
+     padding: 0.3rem 1rem;
+     border-radius: 12px;
+
+     p{
+          font-weight: 500;
+     }
+}

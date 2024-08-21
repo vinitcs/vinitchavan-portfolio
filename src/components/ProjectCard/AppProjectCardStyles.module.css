@@ -1,13 +1,83 @@
-.appImg {
-     /* background-color: antiquewhite; */
-     max-width: 250px;
-     align-self: center;
+.appProjectCard {
+     /* background-color: blueviolet; */
+     display: flex;
+     flex-direction: column;
+     gap: 0.3rem;
+     width: 30%;
+     height: max-content;
+     padding: 6px;
+     /* transition: transform 200ms ease-in-out; */
+     /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+     border-radius: 10px;
+
+     .appImg {
+          /* background-color: antiquewhite; */
+          max-width: 250px;
+          align-self: center;
+          filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
+          transition: transform 500ms ease-in-out;
+     }
+
+     .appImg:hover {
+          transform: scale(1.02);
+     }
+
+     h3 {
+          /* background-color: antiquewhite; */
+          font-size: 1.3rem;
+          color: var(--hover-color);
+          font-weight: bolder;
+          text-align: center;
+     }
+
+     p {
+          font-size: 18px;
+          text-align: center;
+          text-wrap: wrap;
+     }
+
+
+     .navigatingBtn {
+          /* background-color: aqua; */
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          height: max-content;
+          gap: 0.6rem;
+          justify-content: center;
+          margin-top: 0.6rem;
+
+          .actionBtn {
+               background-color: var(--actionbtn-color);
+               color: var(--btn-text-color);
+               border: none;
+               border-radius: 8px;
+               padding: 0.4rem 1rem;
+               text-decoration: none;
+               font-family: bold;
+               font-size: 12px;
+               font-weight: 500;
+               /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+               font-family: 'Roboto Mono', monospace;
+               cursor: pointer;
+          }
+
+          .actionBtn:hover {
+               background-color: var(--actionbtn-hover-color);
+          }
+     }
+
 }
+
+/* .appProjectCard:hover {
+     transform: scale(1.05);
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+} */
 
 
 @media(width<=800px) {
-     a {
-          width: 10rem;
+     .appProjectCard {
+          width: 90%;
 
           .appImg {
                /* background-color: antiquewhite; */
@@ -16,10 +86,20 @@
           }
 
 
-          /* h3 {
-               font-size: 8px;
+          h3 {
+               /* background-color: antiquewhite; */
+               font-size: 1rem;
                font-weight: bolder;
-          } */
+               text-align: center;
+          }
+
+          p {
+               /* background-color: antiquewhite; */
+               /* width: 100%; */
+               font-size: 14px;
+               text-align: center;
+               text-wrap: wrap;
+          }
 
      }
 }
