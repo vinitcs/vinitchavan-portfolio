@@ -107,7 +107,7 @@
 
 
           nav {
-               /* display: none; */
+               visibility: hidden;
                margin-top: 1.8rem;
                max-height: 0;
                opacity: 0;
@@ -125,8 +125,8 @@
                }
 
                &.showNav {
+                    visibility: visible;
                     max-height: 380px;
-                    /* Adjust based on your content's height */
                     opacity: 1;
                     transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
                }
