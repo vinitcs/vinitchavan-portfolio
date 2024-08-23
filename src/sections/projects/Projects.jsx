@@ -43,7 +43,8 @@ function Projects() {
                     src={bms}
                     title={"GIT Bus Card"}
                     description={"A portal that streamlines bus card access for college students, minimize physical card carry, reducing card loss, history of previous paid fees dates, and timely next fee due date alert via email"}
-                    expLetterBtn={"none"}
+                    demoBtn={"block"}
+                    demoLink={"https://drive.google.com/file/d/1wf4NRhztwbK64sWksNkt-nreLjDMPGlO/view?usp=sharing"}
                     outputLink={"https://gitbuscard.netlify.app/"}
                     githubLink={"https://github.com/vinitcs/GIT-Bus-Card-Management"}
                 />
