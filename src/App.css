@@ -1,8 +1,8 @@
 :root {
      --background-color: #fff;
      --btn-color: #0987f2;
-     --actionbtn-color:#4ea7f6;
-     --actionbtn-hover-color:#0987f2;
+     --actionbtn-color: #4ea7f6;
+     --actionbtn-hover-color: #0987f2;
      --border-color: #bbb;
      --btn-text-color: #fff;
      --project-card-bg: #ffffff00;
@@ -15,8 +15,8 @@
 [data-theme="dark"] {
      --background-color: #222;
      --btn-color: #fff;
-     --actionbtn-color:#fff;
-     --actionbtn-hover-color:#0987f2;
+     --actionbtn-color: #fff;
+     --actionbtn-hover-color: #0987f2;
      --btn-text-color: #222;
      --project-card-bg: #fff;
      --text-color: #fff;
@@ -89,12 +89,22 @@ p {
      cursor: pointer;
 }
 
+.progressScrollBar {
+     position: fixed;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 8px;
+     background: var(--actionbtn-hover-color);
+     transform-origin: 0%;
+}
 
 @media (width >=800px) {
-     #root {
-          /* gap: 100px; */
+     /* #root { */
+     /* gap: 100px; */
 
-     }
+     /* } */
 
      h1 {
           font-size: 40px;
@@ -118,10 +128,10 @@ p {
 
 
 @media (width >=1400px) {
-     #root {
-          /* gap: 200px; */
+     /* #root { */
+     /* gap: 200px; */
 
-     }
+     /* } */
 
      h1 {
           font-size: 48px;
