@@ -1,18 +1,33 @@
 .container {
      /* background-color: aqua; */
+     /* background-image: url('../../assets/bg.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center; */
+     width: 100%;
      display: flex;
-     flex-direction: column;
+     /* flex-direction: column; */
      justify-content: center;
-     gap: 20px;
+     /* gap: 20px; */
      align-items: center;
      text-align: center;
      height: 100dvh;
      min-height: 500px;
-     /* margin-top: 2rem; */
 }
 
-.profileBorder {
-     /* background-color: aqua; */
+
+.info {
+     /* background-color: cadetblue; */
+     width: max-content;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 20px;
+}
+
+
+/* .profileBorder {
+     background-color: aqua;
      width: max-content;
      height: max-content;
      border-radius: 100%;
@@ -21,20 +36,20 @@
      justify-content: center;
      position: relative;
 
-     .profileImg {
-          width: 360px;
-          height: 360px;
-          border-radius: 100%;
-          object-fit: cover;
-          /* box-shadow: 0 0 8px 8px white inset; */
-     }
-}
+} */
+/* .profileImg {
+     width: 360px;
+     height: 360px;
+     border-radius: 100%;
+     object-fit: cover;
+     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
+} */
 
-.profileBorder::after {
+/* .profileBorder::after {
      content: "";
      position: absolute;
-     /* top: -2px; */
-     /* left: -2px; */
+     top: -2px;
+     left: -2px;
      width: calc(100% + 4px);
      height: calc(100% + 4px);
      border-radius: 100%;
@@ -43,11 +58,11 @@
      animation: animated-shadow 10s linear infinite alternate;
      z-index: -1;
      filter: blur(3rem);
-}
+} */
 
 
 
-@keyframes animated-shadow {
+/* @keyframes animated-shadow {
      0% {
           background-position: 0 0;
      }
@@ -59,7 +74,7 @@
      100% {
           background-position: 0 0;
      }
-}
+} */
 
 span {
      display: flex;
@@ -70,7 +85,7 @@ span {
           margin: 0;
 
           img {
-               width: 30px;
+               width: 2rem;
           }
      }
 }
@@ -79,6 +94,13 @@ a {
      width: fit-content;
      align-self: center;
 }
+
+.description {
+     /* background-color: #0000ff; */
+     max-width: 28rem;
+     align-self: center;
+}
+
 
 .resumeBtn {
      background-color: var(--btn-color);
@@ -106,39 +128,17 @@ a {
 }
 
 
-.description {
-     max-width: 25ch;
-     align-self: center;
-}
 
-.info {
-     /* background-color: cadetblue; */
-     /* width: max-content; */
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     gap: 20px;
-}
+
 
 h1 {
-     letter-spacing: 2px;
+     font-size: 3.2rem;
+     letter-spacing: 0.2rem;
      position: relative;
 }
 
-.contraction {
-     position: absolute;
-     bottom: 3.2rem;
-     left: 1.2rem;
-     font-size: 1rem;
-     text-transform: none;
-     letter-spacing: 0;
-     font-weight: 600;
-     color: var(--hover-color);
-
-}
-
 .greetings {
-     font-size: 16px;
+     font-size: 1rem;
      font-weight: 400;
      letter-spacing: 0;
      text-transform: none;
@@ -200,8 +200,8 @@ h1 {
 
      span {
           color: var(--hover-color);
-          font-size: 20px;
-          text-align: center;
+          font-size: 1.2rem;
+          font-weight: 400;
           text-wrap: wrap;
 
           .head_tags {
@@ -209,7 +209,7 @@ h1 {
           }
 
           .cursor_tag {
-               display: inline;
+               display: none;
           }
      }
 
@@ -240,7 +240,7 @@ h1 {
 @media(width<=800px) {
      .container {
           height: max-content;
-          margin-top: 4rem;
+          padding-top: 4rem;
           /* margin-bottom: 2rem; */
 
           .profileImg {
@@ -269,7 +269,14 @@ h1 {
                gap: 0;
                align-items: center;
           }
+     
+          .description {
+               /* background-color: #0000ff; */
+               max-width: 18rem;
+          }
+          
      }
+
 
      /* .colorMode {
           position: absolute;

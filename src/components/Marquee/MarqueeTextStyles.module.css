@@ -1,0 +1,27 @@
+.marqueeContainer {
+     /* background-color: aquamarine; */
+     position: absolute;
+     display: flex;
+     gap: 2rem;
+     justify-content: center;
+     width: 100%;
+     /* height: max-content; */
+     z-index: -2;
+     left: 0;
+     right: 0;
+     overflow: hidden;
+}
+
+.rowTitle,
+.rowLetter 
+{
+     /* background-color: aqua; */
+     font-size: 14rem;
+     opacity: 0.2;
+     font-weight: 500;
+     /* position: relative; */
+     letter-spacing: -0.8rem;
+     display: inline-block;
+     white-space: nowrap;
+     /* transform: scale(.5,1); */
+}

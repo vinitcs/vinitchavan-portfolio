@@ -74,8 +74,8 @@ function Header() {
                                    Contact
                               </Link>
                          </li>
+                         <img className={styles.colorMode} src={themeIcon} alt='sun' onClick={toggleTheme} />
                     </ul>
-                    <img className={styles.colorMode} src={themeIcon} alt='sun' onClick={toggleTheme} />
                </nav>
           </header>
      )

@@ -1,8 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png';
-import profileImg from '../../assets/profile-pic.png';
-import sun from '../../assets/sun.svg';
-import moon from '../../assets/moon.svg';
+// import profileImg from '../../assets/profile-pic.png';
 import twitterLight from '../../assets/twitter-light.svg';
 import twitterDark from '../../assets/twitter-dark.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -12,6 +9,7 @@ import linkedInDark from '../../assets/linkedin-dark.svg';
 import cv from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import Typewriter from "typewriter-effect";
+import MarqueeText from '../../components/Marquee/MarqueeText';
 
 function Hero() {
      const { theme } = useTheme();
@@ -21,12 +19,8 @@ function Hero() {
 
      return (
           <section id='hero' className={styles.container}>
-               <div className={styles.profileBorder}>
-                    <img className={styles.profileImg} src={profileImg} alt={heroImg} />
-               </div>
                <div className={styles.info}>
                     <h1><span className={styles.greetings}>Hi<span className={styles.wave}>👋🏻</span>, I'm</span>
-                        {/* <span className={styles.contraction}>I'm</span> */}
                         Vinit<br />Chavan
                     </h1>
 
@@ -34,7 +28,7 @@ function Hero() {
                          <span>
                               <Typewriter
                                    options={{
-                                        strings: ["I do frontend designs", "React Native App Developer"],
+                                        strings: ["Mern Stack Developer", "React Native App Developer", "Frontend Developer"],
                                         autoStart: true,
                                         loop: true,
                                         deleteSpeed: 70,
@@ -55,10 +49,11 @@ function Hero() {
                               <img src={linkedInIcon} alt="LinkedIn" />
                          </a>
                     </span>
-                    <p className={styles.description}>With a passion for developing modern React web apps for commercial businessness.</p>
+                    <p className={styles.description}>With a passion for developing <strong>React web apps</strong> and <strong>React native apps</strong> for commercial businessness.</p>
                     <a href={cv} target='_blank'>
                          <button className={styles.resumeBtn} >Resume</button>
                     </a>
+                    <MarqueeText title={"WELCOME"}/>
                </div>
           </section>
      )

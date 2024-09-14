@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './AppProjectCardStyles.module.css';
 import { FaGithub } from "react-icons/fa";
+import MarqueeText from '../Marquee/MarqueeText';
 
 function AppProjectCard({ firstBtnLogo, firstBtnTxt, src, title, description, expLetterBtn, outputLink, expLetterLink, githubLink }) {
   return (
@@ -20,6 +21,7 @@ function AppProjectCard({ firstBtnLogo, firstBtnTxt, src, title, description, ex
           <button className={styles.actionBtn}><FaGithub style={{ position: 'relative', top: 2, right: 4 }} />Github</button>
         </a>
       </div>
+      <MarqueeText title={"MOBILE-APP"}/>
     </div>
   );
 }

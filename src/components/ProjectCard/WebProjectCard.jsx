@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './WebProjectCardStyles.module.css';
 import { FaGithub } from "react-icons/fa";
+import MarqueeText from '../Marquee/MarqueeText';
 
 function WebProjectCard({ firstBtnLogo, firstBtnTxt, src, title, description, demoBtn, demoLink, outputLink, githubLink }) {
      return (
@@ -20,6 +21,7 @@ function WebProjectCard({ firstBtnLogo, firstBtnTxt, src, title, description, de
                          <button className={styles.actionBtn}><FaGithub style={{ position: 'relative', top: 2, right: 4 }} />Github</button>
                     </a>
                </div>
+               <MarqueeText title={"WEB-APP"}/>
           </div>
      );
 }

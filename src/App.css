@@ -90,6 +90,7 @@ p {
 }
 
 .progressScrollBar {
+     visibility: hidden;
      position: fixed;
      z-index: 2;
      top: 0;
@@ -140,5 +141,11 @@ p {
 
      .sectionTitle {
           margin-bottom: 75px;
+     }
+}
+
+@media(width<=800px) {
+     .progressScrollBar {
+          visibility: visible;
      }
 }
