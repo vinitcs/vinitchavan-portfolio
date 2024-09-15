@@ -21,7 +21,7 @@ function AppProjectCard({ firstBtnLogo, firstBtnTxt, src, title, description, ex
           <button className={styles.actionBtn}><FaGithub style={{ position: 'relative', top: 2, right: 4 }} />Github</button>
         </a>
       </div>
-      <MarqueeText title={"MOBILE-APP"}/>
+      <MarqueeText title={"MOBILE APP"}/>
     </div>
   );
 }

@@ -2,7 +2,51 @@
      display: flex;
      flex-direction: column;
      text-align: center;
+
+     h1 {
+          margin-bottom: 2rem;
+     }
 }
+
+.emailText {
+     font-size: 0.8rem;
+     margin-bottom: 1rem;
+     color: var(--border-color);
+}
+
+.email {
+     font-size: 3.5rem;
+     margin-bottom: 2rem;
+     text-decoration: none;
+     font-family: "Big Shoulders Text";
+     color: var(--text-color);
+}
+
+.email:hover {
+     color: var(--hover-color);
+}
+
+.whatsupText {
+     font-size: 1.2rem;
+     margin-bottom: 1rem;
+     color: var(--border-color);
+     gap: 0;
+
+     .whatsup {
+          font-size: 1.2rem;
+          margin-bottom: 2rem;
+          text-decoration: none;
+          font-weight: 800;
+          color: #008069;
+     }
+}
+
+.orText{
+     font-size: 0.8rem;
+     margin-bottom: 1rem;
+     color: var(--border-color);
+}
+
 
 form {
      display: flex;
@@ -54,7 +98,7 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
-   transform: scale(1.05);
+     transform: scale(1.05);
 }
 
 input[type='submit']:active {
@@ -63,20 +107,38 @@ input[type='submit']:active {
 }
 
 @media(width >=800px) {
-    textarea, input:not([type='submit']){
-     width: 600px;
-     font-size: 20px;
 
-    }
+     textarea,
+     input:not([type='submit']) {
+          width: 600px;
+          font-size: 20px;
 
-    form{
-     gap: 40px;
-    }
+     }
+
+     form {
+          gap: 40px;
+     }
 }
 
 @media(width >=1400px) {
-    textarea, input:not([type='submit']){
-     width: 800px;
 
-    }
+     textarea,
+     input:not([type='submit']) {
+          width: 800px;
+
+     }
+}
+
+@media(width <=800px) {
+     .email {
+          font-size: 2.2rem;
+     }
+
+     .whatsupText {
+          font-size: 1rem;
+     
+          .whatsup {
+               font-size: 1rem;
+          }
+     }
 }

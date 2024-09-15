@@ -215,6 +215,21 @@ h1 {
 
 }
 
+.scrollDownText{
+     position: absolute;
+     z-index: -2;
+     bottom: 3.6rem;
+     right: -1rem;
+     font-size: 0.4rem;
+     letter-spacing: 0.1rem;
+     font-weight: bolder;
+     transform: rotate(90deg);
+     font-family: poppins;
+     color: rgb(80, 80, 80);
+     
+}
+
+
 @media(width>=800px) {
      .container {
           flex-direction: row-reverse;
@@ -277,6 +292,14 @@ h1 {
           
      }
 
+     .scrollDownText{
+          visibility: hidden;
+          bottom: 2.6rem;
+          right: -1.4rem;
+          font-size:0.1rem;
+          opacity: 0.4;
+          /* letter-spacing: 0.1rem;      */
+     }
 
      /* .colorMode {
           position: absolute;

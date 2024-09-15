@@ -6,7 +6,7 @@ import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
-
+import profile from "../../assets/profile.png"
 
 function Header() {
      const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -36,6 +36,7 @@ function Header() {
                          onClick={toggleNavbar}
                     />
                )}
+               <img className={styles.profileImg} src={profile} alt="profile" />
                <nav className={isNavbarOpen ? styles.showNav : ""}>
                     <ul>
                          <li>

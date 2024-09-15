@@ -21,7 +21,7 @@ function WebProjectCard({ firstBtnLogo, firstBtnTxt, src, title, description, de
                          <button className={styles.actionBtn}><FaGithub style={{ position: 'relative', top: 2, right: 4 }} />Github</button>
                     </a>
                </div>
-               <MarqueeText title={"WEB-APP"}/>
+               <MarqueeText title={"WEB APP"}/>
           </div>
      );
 }

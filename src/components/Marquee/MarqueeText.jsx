@@ -11,7 +11,7 @@ const MarqueeText = ({title}) => {
                          animate={{ x: "-100%" }}
                          transition={{duration:10, repeat:Infinity, ease:"linear"}}
                          className={styles.rowLetter} key={idx}>
-                         {title}&nbsp;
+                         {title}&nbsp;&nbsp;&nbsp;&nbsp;
                     </motion.span>
                ))}
           </span>

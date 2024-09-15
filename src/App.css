@@ -101,6 +101,19 @@ p {
      transform-origin: 0%;
 }
 
+::-webkit-scrollbar{
+     width: 0.2rem;
+
+}
+/* ::-webkit-scrollbar-track {
+     background: var(--footer-text-color);
+} */
+::-webkit-scrollbar-thumb {
+     border-radius: 2rem;
+     background: var(--btn-color);
+}
+   
+
 @media (width >=800px) {
      /* #root { */
      /* gap: 100px; */

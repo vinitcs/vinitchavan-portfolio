@@ -10,6 +10,7 @@ import cv from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import Typewriter from "typewriter-effect";
 import MarqueeText from '../../components/Marquee/MarqueeText';
+import scrollDownSVG from '../../assets/Animation - 1726335293902.json';
 
 function Hero() {
      const { theme } = useTheme();
@@ -21,7 +22,7 @@ function Hero() {
           <section id='hero' className={styles.container}>
                <div className={styles.info}>
                     <h1><span className={styles.greetings}>Hi<span className={styles.wave}>👋🏻</span>, I'm</span>
-                        Vinit<br />Chavan
+                         Vinit<br />Chavan
                     </h1>
 
                     <div className={styles.typeWriterSection}>
@@ -53,7 +54,8 @@ function Hero() {
                     <a href={cv} target='_blank'>
                          <button className={styles.resumeBtn} >Resume</button>
                     </a>
-                    <MarqueeText title={"WELCOME"}/>
+                    <MarqueeText title={"WELCOME"} />
+                    <span className={styles.scrollDownText}>SCROLL DOWN</span>
                </div>
           </section>
      )
