@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedInLight from '../../assets/linkedin-light.svg';
 import linkedInDark from '../../assets/linkedin-dark.svg';
-import cv from '../../assets/cv.pdf';
+import resume from '../../assets/resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import Typewriter from "typewriter-effect";
 import MarqueeText from '../../components/Marquee/MarqueeText';
@@ -51,7 +51,7 @@ function Hero() {
                          </a>
                     </span>
                     <p className={styles.description}>With a passion for developing <strong>React web apps</strong> and <strong>React native apps</strong> for commercial businessness.</p>
-                    <a href={cv} target='_blank'>
+                    <a href={resume} target='_blank'>
                          <button className={styles.resumeBtn} >Resume</button>
                     </a>
                     <MarqueeText title={"WELCOME"} />
