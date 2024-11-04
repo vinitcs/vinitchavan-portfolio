@@ -5,16 +5,6 @@
      flex-direction: column;
      text-align: center;
 
-     span {
-          display: flex;
-          align-items: center;
-          gap: 5px;
-
-     }
-
-     img {
-          width: 20px;
-     }
 }
 
 .skillList {
@@ -27,13 +17,12 @@
      padding: 0 8rem;
      row-gap: 40px;
      width: 100%;
-     margin-top: 10px;
 }
 
 @media(width >=800px) {
      .skillList {
           max-width: fit-content;
-          gap: 30px;
+          gap: 1rem;
 
           p {
                font-size: 20px;
@@ -44,7 +33,7 @@
 
 @media(width <=800px) {
      .skillList {
-          /* background-color: antiquewhite; */
+          gap: 1.2rem;
           padding: 0;
      }
 }

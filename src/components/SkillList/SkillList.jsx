@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from "./SkillListStyles.module.css";
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoNodejs, IoLogoGithub } from "react-icons/io";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaFigma } from "react-icons/fa";
 import { MdGeneratingTokens } from "react-icons/md";
-import { SiReact, SiExpress, SiMongodb, SiMysql, SiPostman, SiCanva, SiGit } from "react-icons/si";
+import { SiReact, SiExpress, SiMongodb, SiMysql, SiPostman, SiCanva, SiGit, SiRedux } from "react-icons/si";
 
 
 function SkillList({ iconName, skill }) {
@@ -23,8 +23,10 @@ function SkillList({ iconName, skill }) {
         git: SiGit,
         github: IoLogoGithub,
         postman: SiPostman,
-     //    figma: IoLogoFigma,
+        "redux toolkit": SiRedux,
         canva: SiCanva,
+        figma: FaFigma,
+
     };
 
     // Get the appropriate icon component based on the iconName prop

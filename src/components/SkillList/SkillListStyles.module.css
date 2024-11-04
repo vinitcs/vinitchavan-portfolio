@@ -1,9 +1,29 @@
-.skillCell{
-     background-color:#007ef560;
+.skillCell {
+     background-color: var(--btn-color);
+     color: var(--btn-text-color);
      padding: 0.3rem 1rem;
      border-radius: 12px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 0.2rem;
 
-     p{
+     p {
+          color: var(--btn-text-color);
           font-weight: 500;
+          font-size: 1.6rem;
      }
+
+}
+
+@media(width<=800px) {
+
+     .skillCell {
+          p {
+               font-weight: 500;
+               font-size: 1rem;
+          }
+     }
+
+
 }

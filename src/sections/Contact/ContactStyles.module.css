@@ -26,22 +26,23 @@
      color: var(--hover-color);
 }
 
-.whatsupText {
+.chatOnText {
      font-size: 1.2rem;
      margin-bottom: 1rem;
      color: var(--border-color);
      gap: 0;
 
-     .whatsup {
-          font-size: 1.2rem;
-          margin-bottom: 2rem;
-          text-decoration: none;
-          font-weight: 800;
-          color: #008069;
-     }
 }
 
-.orText{
+.whatsup {
+     /* font-size: 2rem; */
+     /* font-weight: 800; */
+     margin-bottom: 2rem;
+     text-decoration: none;
+     color: #008069;
+}
+
+.orText {
      font-size: 0.8rem;
      margin-bottom: 1rem;
      color: var(--border-color);
@@ -134,11 +135,11 @@ input[type='submit']:active {
           font-size: 2.2rem;
      }
 
-     .whatsupText {
+     .chatOnText {
           font-size: 1rem;
-     
-          .whatsup {
-               font-size: 1rem;
-          }
      }
+
+     /* .whatsup {
+          font-size: 1.6rem;
+     } */
 }

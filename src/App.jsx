@@ -6,6 +6,7 @@ import Skills from './sections/Skills/Skills';
 import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';
 import Header from './sections/Header/Header';
+import About from './sections/About/About';
 import { motion, useScroll, useSpring } from "framer-motion";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <motion.div style={{ scaleX }} className='progressScrollBar' />
       <Header />
       <Hero />
+      <About />
       <Projects />
       <Skills />
       <Contact />

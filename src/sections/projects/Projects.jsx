@@ -15,11 +15,11 @@ function Projects() {
             <h1 className='sectionTitle'>Projects</h1>
             <div className={styles.projectsContainer}>
                 <AppProjectCard
-                    firstBtnLogo={'▶️'}
+                    // firstBtnLogo={'▶️'}
                     firstBtnTxt={'Demo'}
                     src={eviapp}
                     title={"EVIApp (Internship)"}
-                    description={"Developed an Exposys Virtual Internship (EVI) registration app where on applying any domain student can get notification within the app"}
+                    description={"Developed a registration app for Exposys Virtual Internship (EVI), enabling students to apply for various domains and receive in-app notifications upon application submission."}
                     expLetterBtn={"block"}
                     outputLink={"https://drive.google.com/file/d/1dVOUa5LBrvtnMc3-YDRyTy75dgFoTJQM/view?usp=sharing"}
                     expLetterLink={"https://drive.google.com/file/d/1uZm91tsFrcIFjgyY6edJ_N1f-EjO6ma0/view?usp=sharing"}
@@ -27,22 +27,22 @@ function Projects() {
                 />
 
                 <AppProjectCard
-                    firstBtnLogo={'📍'}
-                    firstBtnTxt={'Link'}
+                    // firstBtnLogo={'📍'}
+                    firstBtnTxt={'Demo'}
                     src={farm2tech}
-                    title={"Farm2tech dairy app ui"}
-                    description={"An app listed with dairy products can be added to the cart, with one-time order and monthly subscription"}
+                    title={"Farm2tech dairy app"}
+                    description={"An app featuring a selection of dairy products available for both one-time purchase and monthly subscription options, with seamless cart functionality for added convenience."}
                     expLetterBtn={"none"}
-                    outputLink={"https://drive.google.com/file/d/1XkZ8S83jSsYsRZoFsBWzo7fiw9KpEUHG/view?usp=sharing"}
+                    outputLink={"https://drive.google.com/file/d/1W4hx2HYMGl63awSpWJfJN46m0PQKgwuB/view"}
                     githubLink={"https://github.com/vinitcs/farm2tech-monthly-subscription-app-ui"}
                 />
 
                 <WebProjectCard
-                    firstBtnLogo={'📍'}
-                    firstBtnTxt={'Link'}
+                    // firstBtnLogo={'📍'}
+                    firstBtnTxt={'Visit'}
                     src={bms}
                     title={"GIT Bus Card"}
-                    description={"A portal that streamlines bus card access for college students, minimize physical card carry, reducing card loss, history of previous paid fees dates, and timely next fee due date alert via email"}
+                    description={"Launched a portal that enhances bus card access for college students, eliminating physical cards, reducing card loss, and providing fee payment history with timely due date alerts via email."}
                     demoBtn={"block"}
                     demoLink={"https://drive.google.com/file/d/1wf4NRhztwbK64sWksNkt-nreLjDMPGlO/view?usp=sharing"}
                     outputLink={"https://gitbuscard.netlify.app/"}

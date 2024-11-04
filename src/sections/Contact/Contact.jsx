@@ -1,15 +1,18 @@
 import React from 'react'
 import styles from './ContactStyles.module.css';
+import { FaSquareWhatsapp } from "react-icons/fa6";
 
 function Contact() {
      return (
           <section id='contact' className={styles.container}>
                <h1 className='sectionTitle'>Contact</h1>
-               <span className={styles.emailText}>Let's Connect (click on email)</span>
+               <span className={styles.emailText}>Let's Connect (click on email id)</span>
                <a className={styles.email} href="mailto:vinitchavan.dev@gmail.com">vinitchavan.dev@gmail.com</a>
-               <span className={styles.whatsupText}>Chat on {'<'}<a className={styles.whatsup} href="https://wa.me/9112706329" target="_blank">WhatsApp</a>{'/>'}</span>
                <span className={styles.orText}>or</span>
-               <form action=''>
+               <span className={styles.chatOnText}>Chat on</span>
+               <a className={styles.whatsup} href="https://wa.me/9112706329" target="_blank"><FaSquareWhatsapp size={60}/></a>
+
+               {/* <form action=''>
                     <div className='formGroup'>
                          <label htmlFor='name' hidden>
                               Name
@@ -46,7 +49,7 @@ function Contact() {
                          ></textarea>
                     </div>
                     <input className='hover btn' type='submit' value='Submit' />
-               </form>
+               </form> */}
           </section>
      )
 }

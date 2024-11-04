@@ -97,8 +97,13 @@ a {
 
 .description {
      /* background-color: #0000ff; */
-     max-width: 28rem;
+     max-width: 30rem;
      align-self: center;
+     font-weight: 400;
+
+     strong{
+          color: var(--hover-color);
+     }
 }
 
 

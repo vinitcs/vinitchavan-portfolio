@@ -25,6 +25,9 @@
      --footer-text-color: #bbb;
 }
 
+*{
+     box-sizing: border-box;
+}
 
 body {
      background-color: var(--background-color);
@@ -57,6 +60,7 @@ h3,
 span,
 p,
 li,
+a,
 button {
      font-family: 'Roboto Mono', monospace;
 }

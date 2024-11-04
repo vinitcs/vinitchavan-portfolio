@@ -36,7 +36,7 @@ function Header() {
                          onClick={toggleNavbar}
                     />
                )}
-               <img className={styles.profileImg} src={profile} alt="profile" />
+               <img className={styles.profileImg} src={profile} alt="profile" loading="lazy" />
                <nav className={isNavbarOpen ? styles.showNav : ""}>
                     <ul>
                          <li>
@@ -46,6 +46,15 @@ function Header() {
                                    duration={duration}
                               >
                                    Home
+                              </Link>
+                         </li>
+                         <li>
+                              <Link to="about"
+                                   spy={true}
+                                   smooth={true}
+                                   duration={duration}
+                              >
+                                   About
                               </Link>
                          </li>
                          <li>

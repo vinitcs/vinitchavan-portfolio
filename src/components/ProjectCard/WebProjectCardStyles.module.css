@@ -9,8 +9,8 @@
      text-decoration: none;
 
      .webImg {
-          width: 32rem;
-          height: 18rem;
+          width: 40rem;
+          height: 24rem;
           align-self: center;
           filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
           transition: transform 500ms ease-in-out;
@@ -23,16 +23,18 @@
 
      h3 {
           /* background-color: antiquewhite; */
-          font-size: 1.3rem;
+          font-size: 2rem;
+          margin-top: 1rem;
           color: var(--hover-color);
           font-weight: bolder;
           text-align: center;
      }
 
      p {
-          font-size: 18px;
+          font-size: 1.1rem;
           text-align: center;
           text-wrap: wrap;
+          font-weight: 400;
      }
 
      .navigatingBtn {
@@ -46,22 +48,23 @@
           margin-top: 0.6rem;
 
           .actionBtn {
-               background-color: var(--actionbtn-color);
+               background-color: var(--btn-color);
                color: var(--btn-text-color);
                border: none;
                border-radius: 8px;
-               padding: 0.4rem 1rem;
+               padding: 0.6rem 1rem;
                text-decoration: none;
                font-family: bold;
-               font-size: 12px;
-               font-weight: 500;
-               /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+               font-size: 1rem;
+               font-weight: 600;
                font-family: 'Roboto Mono', monospace;
                cursor: pointer;
+               /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
           }
 
           .actionBtn:hover {
-               background-color: var(--actionbtn-hover-color);
+               color: var(--text-color);
+               background-color: var(--hover-color);
           }
      }
 }
@@ -73,14 +76,14 @@
 
           .webImg {
                /* background-color: antiquewhite; */
-               width: 20rem;
-               height: 11.6rem;
+               width: 22rem;
+               height: 12.6rem;
                align-self: center;
           }
 
           h3 {
                /* background-color: antiquewhite; */
-               font-size: 1rem;
+               font-size: 1.6rem;
                font-weight: bolder;
                text-align: center;
           }

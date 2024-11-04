@@ -50,7 +50,7 @@ function Hero() {
                               <img src={linkedInIcon} alt="LinkedIn" />
                          </a>
                     </span>
-                    <p className={styles.description}>With a passion for developing <strong>React web apps</strong> and <strong>React native apps</strong> for commercial businessness.</p>
+                    <p className={styles.description}>Passionate about building high-quality React <strong>web</strong> and <strong> native applications</strong> tailored for commercial success.</p>
                     <a href={resume} target='_blank'>
                          <button className={styles.resumeBtn} >Resume</button>
                     </a>

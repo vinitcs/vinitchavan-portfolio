@@ -1,0 +1,35 @@
+.paragraph {
+     font-weight: 400;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     line-height: 1.2;
+     /* margin: 0rem 4rem; */
+     
+     .word {
+          font-size: 4rem;
+          margin-right: 1rem;
+          margin-top: 0.4rem;
+          position: relative;
+
+
+          .shadow {
+               position: absolute;
+               opacity: 0.1;
+               user-select: none;
+          }
+     }
+
+}
+
+@media(width<=800px) {
+     .paragraph {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin: 0rem 1.8rem;
+          margin-top: 2.4rem;
+     }
+}
