@@ -4,7 +4,7 @@ import styles from './ProjectsStyles.module.css';
 // import { projectData } from '../../data/ProjectData.js';
 
 import eviapp from '../../assets/eviapp.png';
-import farm2tech from '../../assets/farm2tech.png';
+import milk2market from '../../assets/milk2market.png';
 import bms from '../../assets/bms.png';
 import AppProjectCard from '../../components/ProjectCard/AppProjectCard';
 import WebProjectCard from '../../components/ProjectCard/WebProjectCard';
@@ -18,7 +18,7 @@ function Projects() {
                     // firstBtnLogo={'▶️'}
                     firstBtnTxt={'Demo'}
                     src={eviapp}
-                    title={"EVIApp (Internship)"}
+                    title={"EVIApp (intern)"}
                     description={"Developed a registration app for Exposys Virtual Internship (EVI), enabling students to apply for various domains and receive in-app notifications upon application submission."}
                     expLetterBtn={"block"}
                     outputLink={"https://drive.google.com/file/d/1dVOUa5LBrvtnMc3-YDRyTy75dgFoTJQM/view?usp=sharing"}
@@ -29,19 +29,19 @@ function Projects() {
                 <AppProjectCard
                     // firstBtnLogo={'📍'}
                     firstBtnTxt={'Demo'}
-                    src={farm2tech}
-                    title={"Farm2tech dairy app"}
+                    src={milk2market}
+                    title={"Milk2Market dairy app"}
                     description={"An app featuring a selection of dairy products available for both one-time purchase and monthly subscription options, with seamless cart functionality for added convenience."}
                     expLetterBtn={"none"}
-                    outputLink={"https://drive.google.com/file/d/1W4hx2HYMGl63awSpWJfJN46m0PQKgwuB/view"}
-                    githubLink={"https://github.com/vinitcs/farm2tech-monthly-subscription-app-ui"}
+                    outputLink={"https://drive.google.com/file/d/1BgfmMnhn0JqJcw_c2p3wIxBmbyeObRBA/view"}
+                    githubLink={"https://github.com/vinitcs/milk2market-dairy-app"}
                 />
 
                 <WebProjectCard
                     // firstBtnLogo={'📍'}
                     firstBtnTxt={'Visit'}
                     src={bms}
-                    title={"GIT Bus Card"}
+                    title={"GIT bus card"}
                     description={"Launched a portal that enhances bus card access for college students, eliminating physical cards, reducing card loss, and providing fee payment history with timely due date alerts via email."}
                     demoBtn={"block"}
                     demoLink={"https://drive.google.com/file/d/1wf4NRhztwbK64sWksNkt-nreLjDMPGlO/view?usp=sharing"}
