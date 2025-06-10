@@ -13,6 +13,7 @@
      text-align: center;
      height: 100dvh;
      min-height: 500px;
+     position: relative;
 }
 
 
@@ -101,7 +102,7 @@ a {
      align-self: center;
      font-weight: 400;
 
-     strong{
+     strong {
           color: var(--hover-color);
      }
 }
@@ -220,7 +221,7 @@ h1 {
 
 }
 
-.scrollDownText{
+.scrollDownText {
      position: absolute;
      z-index: -2;
      bottom: 3.6rem;
@@ -231,7 +232,7 @@ h1 {
      transform: rotate(90deg);
      font-family: poppins;
      color: rgb(80, 80, 80);
-     
+
 }
 
 
@@ -289,19 +290,19 @@ h1 {
                gap: 0;
                align-items: center;
           }
-     
+
           .description {
                /* background-color: #0000ff; */
                max-width: 18rem;
           }
-          
+
      }
 
-     .scrollDownText{
+     .scrollDownText {
           visibility: hidden;
           bottom: 2.6rem;
           right: -1.4rem;
-          font-size:0.1rem;
+          font-size: 0.1rem;
           opacity: 0.4;
           /* letter-spacing: 0.1rem;      */
      }

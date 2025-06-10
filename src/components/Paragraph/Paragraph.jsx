@@ -19,7 +19,7 @@ export default function Paragraph({ value }) {
                {words.map((word, index) => {
                     const start = index / words.length;
                     const end = start + (1 / words.length)
-                    console.log({ start, end });
+                    // console.log({ start, end });
 
                     return (
                          <Word
