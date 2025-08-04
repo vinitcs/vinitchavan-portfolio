@@ -36,7 +36,7 @@ function Header() {
                          onClick={toggleNavbar}
                     />
                )}
-               <img className={styles.profileImg} src={profile} alt="profile" loading="lazy" />
+               {/* <img className={styles.profileImg} src={profile} alt="profile" loading="lazy" /> */}
                <nav className={isNavbarOpen ? styles.showNav : ""}>
                     <ul>
                          <li>

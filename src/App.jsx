@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css'
 import Hero from './sections/Hero/Hero';
 import Projects from './sections/projects/Projects';
@@ -10,7 +9,6 @@ import About from './sections/About/About';
 import { motion, useScroll, useSpring } from "framer-motion";
 
 function App() {
-  // const [count, setCount] = useState(0);
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress)
 

@@ -1,0 +1,125 @@
+.sliderWrapper {
+     /* background-color: aqua; */
+     width: 100%;
+     padding: 0 4rem;
+
+     :global(.slick-track) {
+          width: 100vw;
+          display: flex;
+          align-items: stretch;
+          gap: 20px;
+     }
+
+     :global(.slick-slide) {
+          height: auto;
+          align-items: stretch;
+
+          &>div {
+               width: 100%;
+               height: 100%;
+               display: flex;
+          }
+     }
+
+     :global(.slick-list) {
+          width: 90vw;
+          margin: 0 auto;
+     }
+
+     :global(.slick-prev),
+     :global(.slick-next) {
+
+          &:before {
+               color: var(--text-color);
+          }
+     }
+
+     :global(.slick-dots) {
+          margin: -2rem auto;
+
+          li {
+               button {
+
+                    &:before {
+                         color: var(--text-color);
+                    }
+               }
+          }
+     }
+
+
+     .cardInner {
+          /* background-color: red; */
+          /* height: 100%; */
+          border-radius: 12px;
+          padding: 1rem;
+          text-align: center;
+          border: 0.1px solid whitesmoke;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .appImg {
+               width: 100%;
+               height: 200px;
+               object-fit: contain;
+               margin: 0 auto 1rem auto;
+          }
+
+          h3 {
+               font-size: 1.1rem;
+               color: var(--hover-color);
+               margin-bottom: 0.5rem;
+          }
+
+          p {
+               font-size: 0.9rem;
+               color: var(--text-color);
+               min-height: 60px;
+          }
+
+          .navigatingBtn {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               gap: 0.5rem;
+               margin-top: 1rem;
+
+               .actionBtn {
+                    background-color: var(--btn-color);
+                    color: var(--btn-text-color);
+                    padding: 0.5rem 1rem;
+                    border: none;
+                    border-radius: 6px;
+                    font-weight: 600;
+                    font-size: 0.85rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.4rem;
+                    cursor: pointer;
+                    font-family: 'Roboto Mono', monospace;
+
+                    &:hover {
+                         background-color: var(--hover-color);
+                         color: var(--text-color);
+                    }
+               }
+          }
+     }
+}
+
+@media (width <=800px) {
+     .sliderWrapper {
+          padding: 0 4rem;
+
+          :global(.slick-track) {
+               width: 80vw;
+          }
+
+
+          :global(.slick-list) {
+               width: 80vw;
+               margin: 0 auto;
+          }
+     }
+}

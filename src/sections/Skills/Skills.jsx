@@ -22,8 +22,8 @@ function Skills() {
                 <SkillList iconName={'git'} skill={"GIT"} />
                 <SkillList iconName={'github'} skill={"GitHub"} />
                 <SkillList iconName={'postman'} skill={"Postman"} />
-                <SkillList iconName={'canva'} skill={"Canva"} />
-                <SkillList iconName={'figma'} skill={"Figma"} />
+                {/* <SkillList iconName={'canva'} skill={"Canva"} />
+                <SkillList iconName={'figma'} skill={"Figma"} /> */}
             </div>
         </section>
     );
