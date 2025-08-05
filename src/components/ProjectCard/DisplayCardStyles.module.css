@@ -110,9 +110,10 @@
 
 @media (width <=800px) {
      .sliderWrapper {
-          padding: 0 4rem;
-
+          padding: 0 2rem;
+          
           :global(.slick-track) {
+               /* background-color: burlywood; */
                width: 80vw;
           }
 
