@@ -1,3 +1,6 @@
+@import 'node_modules/vanilla-infinite-marquee/infinite-marquee.css';
+/* @import 'node_modules/vanilla-infinite-marquee/infinite-marquee.scss'; */
+
 :root {
      --background-color: #fff;
      --btn-color: #0987f2;

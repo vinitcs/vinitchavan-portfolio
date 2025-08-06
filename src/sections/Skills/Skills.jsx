@@ -1,29 +1,59 @@
 import React from 'react';
 import styles from './SkillsStyles.module.css';
-import SkillList from '../../components/SkillList/SkillList';
+// import SkillList from '../../components/SkillList/SkillList';
+import InfiniteMarquee from '../../components/Marquee/InfiniteMarquee';
+
+import img1 from "../../assets/1.png";
+import img2 from "../../assets/2.png";
+import img3 from "../../assets/3.png";
+import img4 from "../../assets/4.png";
+import img5 from "../../assets/5.png";
+import img6 from "../../assets/6.png";
+import img7 from "../../assets/7.png";
+import img8 from "../../assets/8.png";
+
 
 function Skills() {
+
+    // const skillsData = [
+    //     { icon: 'html5', label: 'HTML5' },
+    //     { icon: 'css3', label: 'CSS' },
+    //     { icon: 'javascript', label: 'JavaScript' },
+    //     { icon: 'reactjs', label: 'React.js' },
+    //     { icon: 'reactnative', label: 'React Native' },
+    //     { icon: 'redux toolkit', label: 'Redux Toolkit' },
+    //     { icon: 'nodejs', label: 'Node.js' },
+    //     { icon: 'expressjs', label: 'Express.js' },
+    //     { icon: 'mongodb', label: 'MongoDB' },
+    //     { icon: 'mysql', label: 'MySQL' },
+    //     { icon: 'restapi', label: 'Rest-Api' },
+    //     { icon: 'jwt', label: 'JWT' },
+    //     { icon: 'git', label: 'GIT' },
+    //     { icon: 'github', label: 'GitHub' },
+    //     { icon: 'postman', label: 'Postman' },
+    //     { icon: 'canva', label: 'Canva' },
+    //     { icon: 'figma', label: 'Figma' }
+    // ];
+
+    const imgs = [img1, img2, img3, img4, img5, img6, img7, img8];
+
+
     return (
         <section id='skills' className={styles.container}>
             <h1 className='sectionTitle'>Skills</h1>
+
             <div className={styles.skillList}>
-                <SkillList iconName={'html5'} skill={"HTML5"} />
-                <SkillList iconName={'css3'} skill={"CSS"} />
-                <SkillList iconName={'javascript'} skill={"JavaScript"} />
-                <SkillList iconName={'reactjs'} skill={"React.js"} />
-                <SkillList iconName={'reactnative'} skill={"React Native"} />
-                <SkillList iconName={'redux toolkit'} skill={"Redux Toolkit"} />
-                <SkillList iconName={'nodejs'} skill={"Node.js"} />
-                <SkillList iconName={'expressjs'} skill={"Express.js"} />
-                <SkillList iconName={'mongodb'} skill={"MongoDB"} />
-                <SkillList iconName={'mysql'} skill={"MySQL"} />
-                <SkillList iconName={'restapi'} skill={"Rest-Api"} />
-                <SkillList iconName={'jwt'} skill={"JWT"} />
-                <SkillList iconName={'git'} skill={"GIT"} />
-                <SkillList iconName={'github'} skill={"GitHub"} />
-                <SkillList iconName={'postman'} skill={"Postman"} />
-                {/* <SkillList iconName={'canva'} skill={"Canva"} />
-                <SkillList iconName={'figma'} skill={"Figma"} /> */}
+
+                <InfiniteMarquee
+                    className='im-1'
+                    dataType='image'
+                    // dataArray={skillsData.map(({ icon, label }) => (
+                    //     <SkillList key={label} iconName={icon} skill={label} />
+                    // ))}
+                    dataArray={imgs}
+                    speed={400000}
+                    direction='left'
+                />
             </div>
         </section>
     );
