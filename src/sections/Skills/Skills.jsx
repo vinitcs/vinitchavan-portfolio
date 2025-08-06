@@ -51,7 +51,7 @@ function Skills() {
                     //     <SkillList key={label} iconName={icon} skill={label} />
                     // ))}
                     dataArray={imgs}
-                    speed={400000}
+                    speed={200000}
                     direction='left'
                 />
             </div>
