@@ -40,7 +40,7 @@ function Skills() {
 
     return (
         <section id='skills' className={styles.container}>
-            <h1 className='sectionTitle'>Skills</h1>
+            <h2 className='sectionTitle'>Skills</h2>
 
             <div className={styles.skillList}>
 
@@ -51,7 +51,7 @@ function Skills() {
                     //     <SkillList key={label} iconName={icon} skill={label} />
                     // ))}
                     dataArray={imgs}
-                    speed={200000}
+                    speed={100000}
                     direction='left'
                 />
             </div>

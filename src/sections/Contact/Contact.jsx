@@ -5,7 +5,7 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 function Contact() {
      return (
           <section id='contact' className={styles.container}>
-               <h1 className='sectionTitle'>Contact</h1>
+               <h2 className='sectionTitle'>Contact</h2>
                <span className={styles.emailText}>Let's Connect (click on email id)</span>
                <a className={styles.email} href="mailto:vinitchavan.dev@gmail.com">vinitchavan.dev@gmail.com</a>
                <span className={styles.orText}>or</span>

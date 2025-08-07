@@ -28,7 +28,7 @@
      --footer-text-color: #bbb;
 }
 
-*{
+* {
      box-sizing: border-box;
 }
 
@@ -83,6 +83,14 @@ h1 {
      font-size: 32px;
 }
 
+h2 {
+     font-size: 2rem;
+     text-transform: uppercase;
+     margin-bottom: 2.4rem;
+     font-weight: 800;
+     color: grey;
+}
+
 p {
      font-size: 16px;
      font-weight: 300;
@@ -108,10 +116,11 @@ p {
      transform-origin: 0%;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
      width: 0.2rem;
 
 }
+
 /* ::-webkit-scrollbar-track {
      background: var(--footer-text-color);
 } */
@@ -119,7 +128,7 @@ p {
      border-radius: 2rem;
      background: var(--btn-color);
 }
-   
+
 
 @media (width >=800px) {
      /* #root { */
@@ -132,10 +141,14 @@ p {
 
      }
 
-     h2,
+     /* h2, */
      h3,
      span {
           font-size: 24px;
+     }
+
+     h2 {
+          font-size: 2rem;
      }
 
      p {

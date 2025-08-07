@@ -6,7 +6,7 @@ const paragraph = "Versatile developer skilled in building user-centered web and
 function About() {
      return (
           <section id='about' className={styles.container}>
-               <h1>About me</h1>
+               <h2>About me</h2>
                <Paragraph value={paragraph} />
           </section>
      )
