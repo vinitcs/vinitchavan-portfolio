@@ -1,3 +1,4 @@
+import { motion, useScroll, useSpring } from "framer-motion";
 import './App.css'
 import Hero from './sections/Hero/Hero';
 import Projects from './sections/projects/Projects';
@@ -6,7 +7,7 @@ import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';
 import Header from './sections/Header/Header';
 import About from './sections/About/About';
-import { motion, useScroll, useSpring } from "framer-motion";
+import Experience from './sections/Experience/Experience';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Skills />
       <Contact />

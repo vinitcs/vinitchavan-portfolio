@@ -6,7 +6,7 @@ function Contact() {
      return (
           <section id='contact' className={styles.container}>
                <h2 className='sectionTitle'>Contact</h2>
-               <span className={styles.emailText}>Let's Connect (click on email id)</span>
+               <span className={styles.emailText}>Let's Connect</span>
                <a className={styles.email} href="mailto:vinitchavan.dev@gmail.com">vinitchavan.dev@gmail.com</a>
                <span className={styles.orText}>or</span>
                <span className={styles.chatOnText}>Chat on</span>

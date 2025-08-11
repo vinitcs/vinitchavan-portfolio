@@ -1,7 +1,151 @@
 .container {
      /* background-color: pink; */
      width: 100%;
-     height: 80vh;
-     /* margin-bottom: 1px; */
-     text-align: center;
+     margin-bottom: 2rem;
+     padding: 0 4rem 2rem 4rem;
+
+
+     :global(.slick-track) {
+          width: 100vw;
+          display: flex;
+          align-items: stretch;
+          gap: 20px;
+     }
+
+     :global(.slick-slide) {
+          height: auto;
+          align-items: stretch;
+
+          &>div {
+               width: 100%;
+               height: 100%;
+               display: flex;
+          }
+     }
+
+     :global(.slick-list) {
+          width: 90vw;
+          margin: 0 auto;
+     }
+
+     :global(.slick-prev),
+     :global(.slick-next) {
+
+          &:before {
+               color: var(--text-color);
+          }
+     }
+
+     :global(.slick-dots) {
+          margin: -2rem auto;
+
+          li {
+               button {
+
+                    &:before {
+                         color: var(--text-color);
+                    }
+               }
+          }
+     }
+
+     h2 {
+          text-align: center;
+     }
+
+     .cardInner {
+          /* background-color: red; */
+          /* height: 100%; */
+          border-radius: 12px;
+          padding: 1rem;
+          border: 0.1px solid whitesmoke;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+
+          .navigateBtn {
+               background: transparent;
+               position: absolute;
+               top: 0.4rem;
+               right: 0.4rem;
+               cursor: pointer;
+               padding: 0px;
+               border: none;
+               display: flex;
+               align-items: center;
+               color: grey;
+               backdrop-filter: blur(4px);
+               display: none;
+          }
+
+          .appImg {
+               width: 100%;
+               height: 200px;
+               object-fit: contain;
+               margin: 0 auto 1rem auto;
+          }
+
+          h3 {
+               text-align: center;
+               font-size: 1rem;
+               color: var(--text-color);
+               margin-bottom: 0.5rem;
+          }
+
+          p {
+               font-size: 0.85rem;
+               color: var(--text-color);
+               font-weight: 400;
+               min-height: 60px;
+               text-wrap: wrap;
+          }
+
+          .actionBtnSection {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: baseline;
+               gap: 0.5rem;
+               margin-top: 1rem;
+
+               .actionBtnCapsule {
+                    background-color: var(--btn-color);
+                    color: var(--btn-text-color);
+                    padding: 0.4rem 0.6rem;
+                    border: none;
+                    border-radius: 12px;
+                    font-size: 0.8rem;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    cursor: pointer;
+                    font-family: 'Roboto Mono', monospace;
+
+                    &:hover {
+                         background-color: var(--hover-color);
+                         color: var(--text-color);
+                    }
+               }
+          }
+     }
+
+     /* } */
+}
+
+
+@media (width <=800px) {
+     .container {
+          padding: 0 2rem;
+
+          :global(.slick-track) {
+               /* background-color: burlywood; */
+               width: 80vw;
+          }
+
+
+          :global(.slick-list) {
+               width: 80vw;
+               margin: 0 auto;
+          }
+     }
 }

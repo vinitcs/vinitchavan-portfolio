@@ -58,6 +58,15 @@ function Header() {
                               </Link>
                          </li>
                          <li>
+                              <Link to="experience"
+                                   spy={true}
+                                   smooth={true}
+                                   duration={duration}
+                              >
+                                   Experience
+                              </Link>
+                         </li>
+                         <li>
                               <Link to="projects"
                                    spy={true}
                                    smooth={true}
