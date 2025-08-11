@@ -41,6 +41,7 @@ const Word = ({ children, range, progress }) => {
           <span className={styles.word}>
                <span className={styles.shadow}>{children}</span>
                <motion.span
+                    className={styles.clildText}
                     style={{ opacity }}
                >
                     {children}

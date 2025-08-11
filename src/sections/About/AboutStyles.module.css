@@ -1,9 +1,12 @@
 .container {
      /* background-color: aqua; */
      width: 100%;
-     text-align: center;
      padding: 0 4rem;
      /* height: 60vh; Make it taller for scroll */
+     
+     h2{
+          text-align: center;
+     }
 }
 
 @media(width<=800px) {
