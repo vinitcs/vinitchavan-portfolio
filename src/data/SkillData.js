@@ -11,6 +11,8 @@ export const skillsData = [
   { icon: "mysql", label: "MySQL" },
   { icon: "stripe", label: "Stripe" },
   { icon: "razorpay", label: "Razorpay" },
+  { icon: "firebase", label: "Firebase" },
+  { icon: "cloudflare", label: "Cloudflare" },
   { icon: "restapi", label: "Rest-Api" },
   { icon: "jwt", label: "JWT" },
   { icon: "git", label: "GIT" },

@@ -5,7 +5,7 @@ import {
   IoLogoNodejs,
   IoLogoGithub,
 } from "react-icons/io";
-import { FaReact, FaFigma, FaCcStripe } from "react-icons/fa";
+import { FaReact, FaFigma, FaCcStripe, FaCloudflare } from "react-icons/fa";
 import { MdGeneratingTokens } from "react-icons/md";
 import {
   SiReact,
@@ -19,6 +19,7 @@ import {
   SiRazorpay,
 } from "react-icons/si";
 import { FaServer } from "react-icons/fa6";
+import { RiFirebaseFill } from "react-icons/ri";
 
 export const iconMapping = {
   html5: IoLogoHtml5,
@@ -41,6 +42,8 @@ export const iconMapping = {
   server: FaServer,
   stripe: FaCcStripe,
   razorpay: SiRazorpay,
+  firebase: RiFirebaseFill,
+  cloudflare: FaCloudflare,
 };
 
 {
