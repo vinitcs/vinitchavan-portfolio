@@ -5,7 +5,7 @@ import {
   IoLogoNodejs,
   IoLogoGithub,
 } from "react-icons/io";
-import { FaReact, FaFigma } from "react-icons/fa";
+import { FaReact, FaFigma, FaCcStripe } from "react-icons/fa";
 import { MdGeneratingTokens } from "react-icons/md";
 import {
   SiReact,
@@ -16,6 +16,7 @@ import {
   SiCanva,
   SiGit,
   SiRedux,
+  SiRazorpay,
 } from "react-icons/si";
 import { FaServer } from "react-icons/fa6";
 
@@ -38,6 +39,8 @@ export const iconMapping = {
   canva: SiCanva,
   figma: FaFigma,
   server: FaServer,
+  stripe: FaCcStripe,
+  razorpay: SiRazorpay,
 };
 
 {
