@@ -1,6 +1,8 @@
 export const skillsData = [
   { icon: "html5", label: "HTML5" },
   { icon: "css3", label: "CSS" },
+  { icon: "bootstrap", label: "Bootstrap" },
+  { icon: "tailwindcss", label: "Tailwind CSS" },
   { icon: "javascript", label: "JavaScript" },
   { icon: "reactjs", label: "React.js" },
   { icon: "reactnative", label: "React Native" },
