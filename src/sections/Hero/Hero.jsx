@@ -7,7 +7,6 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedInLight from '../../assets/linkedin-light.svg';
 import linkedInDark from '../../assets/linkedin-dark.svg';
-import resume from '../../assets/resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import Typewriter from "typewriter-effect";
 // import MarqueeText from '../../components/Marquee/MarqueeText';
@@ -32,7 +31,7 @@ function Hero() {
                               <span>
                                    <Typewriter
                                         options={{
-                                             strings: ["Mern Stack Developer", "React Native App Developer", "Frontend Developer"],
+                                             strings: ["Mern Stack Developer", "React Web and Native App", "React Developer", "Node.js Developer"],
                                              autoStart: true,
                                              loop: true,
                                              deleteSpeed: 70,
@@ -53,8 +52,8 @@ function Hero() {
                                    <img src={linkedInIcon} alt="LinkedIn" />
                               </a>
                          </span>
-                         <p className={styles.description}>Passionate about building high-quality React <strong>web</strong> and <strong> native applications</strong> tailored for commercial success.</p>
-                         <a href={resume} target='_blank'>
+                         <p className={styles.description}>Passionate about building high-quality React web and mobile applications that drive commercial success.</p>
+                         <a href="https://drive.google.com/file/d/1rrjLluW9M87IWRkrkKgmW1_nMxaVfSzu/view?usp=drive_link" target='_blank'>
                               <button className={styles.resumeBtn} >Resume</button>
                          </a>
                          {/* <MarqueeText title={"WELCOME"} /> */}

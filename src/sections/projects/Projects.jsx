@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { projectData } from '../../data/ProjectData';
 import { FaGithub } from "react-icons/fa";
-import { IoMdDocument } from "react-icons/io"
+import { IoMdDocument } from "react-icons/io";
 import { MdOndemandVideo } from "react-icons/md";
 import { FiArrowUpRight } from "react-icons/fi";
 import { MdInsertLink } from "react-icons/md";
@@ -95,7 +95,7 @@ function Projects() {
                             }
                             {data.expLetterBtn &&
                                 <a href={data.expLetterLink} style={{ textDecoration: 'none' }} target="_blank">
-                                    <button className={styles.actionBtnCapsule}><IoMdDocument size={16} style={{ position: 'relative', top: 2, right: 4 }} />Exp.</button>
+                                    <button className={styles.actionBtnCapsule}><IoMdDocument size={16} style={{ position: 'relative', top: 2, right: 4 }} />Experience Letter</button>
                                 </a>
                             }
                             {data.siteBtn &&

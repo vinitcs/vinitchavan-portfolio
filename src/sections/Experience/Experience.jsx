@@ -1,7 +1,7 @@
-import React from 'react'
 import styles from "./ExperienceStyles.module.css";
 import { experienceData } from '../../data/ExperienceData';
 import { iconMapping } from '../../utils/icons/icons';
+import { IoMdDocument } from "react-icons/io"
 
 function Experience() {
 
@@ -14,7 +14,18 @@ function Experience() {
                          <h4>{data.yearRange[0]} - {data.yearRange[1]}</h4>
                          <h3>{data.companyName}</h3>
 
+
                          <span>{data.roles.join(", ")}</span>
+
+                         {data.exp &&
+
+                              <div className={styles.actionBtnSection}>
+                                   <a href={data.exp} target='_blank'>
+                                        <button className={styles.actionBtnCapsule}><IoMdDocument size={16} style={{ position: 'relative', top: 2, right: 4 }} />Experience Letter</button>
+                                   </a>
+                              </div>
+                         }
+
                          <p>{data.description}</p>
                          {/* <ul>
                               {data.responsibilities.map((item, i) => (

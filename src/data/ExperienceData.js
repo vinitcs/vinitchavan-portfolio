@@ -1,11 +1,12 @@
 export const experienceData = [
   {
     id: 0,
-    yearRange: ["Dec 2024", "Present"],
+    yearRange: ["Dec 2024", "Oct 2025"],
     companyName: "Savitar Solutions",
     roles: ["Node.js Backend", "Server Management (VPS)"],
     description:
-      "Contributed as a Node.js backend developer on a social media app project, maintaining scalable and optimized APIs, managing the client’s production VPS server, handling backend payment checkout and confirmation webhooks, and implementing efficient user-generated media storage on the cloud with categorization.",
+      "As a Node.js backend developer, I played a key role in designing, developing and optimizing the backend infrastructure for a social networking application. My responsibilities included architecting and maintaining RESTful APIs with efficient query handling and caching for high scalability. I managed the client’s both development and production servers, handling deployments, monitoring logs, and ensuring zero downtime during version updates. I integrated payment checkout mechanisms using third-party gateways and implemented webhook listeners for automated transaction confirmations. Additionally, I developed a cloud media storage pipeline to store user-uploaded content—such as posts, images, and event media—with category-based organization, enhancing searchability and data management efficiency. This contributed to a more reliable, maintainable, and performance-oriented backend.",
+    exp: "https://drive.google.com/file/d/10_Lyzra7A4e0EgtmClpgL8gHxAlqZyGm/view?usp=sharing",
     // responsibilities: [
     //   "Developed and maintained backend APIs for a social media app for NGOs",
     //   "Managed production VPS (AlmaLinux 9), including deployments and health checks",
@@ -30,7 +31,8 @@ export const experienceData = [
     companyName: "CYDA",
     roles: ["Node.js Backend"],
     description:
-      "Developed and deployed two freelance React Native applications backend, leading optimized and scalable APIs for features like event, post, in-app notification, scheduled events and posts ensuring data management.",
+      "As a freelance Node.js backend developer, I developed and development deployed Node.js-based backend for two React Native mobile applications. Designed modular, optimized, and scalable APIs to power features including event creation, post handling, in-app notifications, and calendar-integrated scheduled events. Built separate endpoints for user and admin operations, enabling effective content moderation, post visibility control, and analytics management. Focused on data consistency, error handling, and efficient database queries to deliver reliable backend performance.",
+    exp: "",
     // responsibilities: [
     //   "Developed and maintained backend APIs for a social media app for NGOs",
     //   "Managed production VPS (AlmaLinux 9), including deployments and health checks",

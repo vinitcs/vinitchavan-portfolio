@@ -1,7 +1,7 @@
 import styles from "./AboutStyles.module.css";
 import Paragraph from "../../components/Paragraph/Paragraph";
 
-const paragraph = "MERN developer skilled in building web and mobile applications using React.js, React Native, Node.js, and MongoDB. Adept at creating dynamic, scalable solutions that enhance performance and interactivity, while following industry standards for developing optimized APIs. Passionate about contributing to impactful projects while advancing my expertise.";
+const paragraph = "MERN stack developer with hands-on experience in React.js, React Native, Node.js, and MongoDB, specializing in building scalable and performance-driven web and mobile solutions. Skilled in designing and deploying secure, RESTful, and modular backend APIs, managing database structures, and implementing cloud-based services for media and data management. Proficient in handling real-world challenges such as optimizing API response times, ensuring data integrity, and managing production environments. Passionate about writing clean, maintainable code and leveraging technology to solve meaningful, real-world problems.";
 
 function About() {
      return (
