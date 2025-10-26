@@ -31,7 +31,7 @@ export const experienceData = [
     companyName: "CYDA",
     roles: ["Node.js Backend"],
     description:
-      "As a freelance Node.js backend developer, I developed and development deployed Node.js-based backends for two mobile applications. Designed modular, optimized, and scalable APIs to power features. Built separate endpoints for user and admin operations, enabling effective content moderation, visibility control, and analytics management. Focused on data consistency, error handling, and efficient database queries to deliver reliable backend performance.",
+      "As a freelance Node.js backend developer, I developed and development deployed Node.js-based backends for two mobile applications. Designed modular, optimized, and scalable APIs to power features. Built separate endpoints for user and admin operations, enabling effective content moderation, visibility control, and analytics management. Focused on data consistency, error handling, and efficient database queries to deliver reliable backend performance. Also contributed to UI design to enhance user experience.",
     exp: "",
     // responsibilities: [
     //   "Developed and maintained backend APIs for a mobile.",
