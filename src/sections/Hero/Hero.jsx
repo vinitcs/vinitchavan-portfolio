@@ -12,6 +12,7 @@ import Typewriter from "typewriter-effect";
 // import MarqueeText from '../../components/Marquee/MarqueeText';
 // import scrollDownSVG from '../../assets/Animation - 1726335293902.json';
 import BackgroundLineWrapper from '../../components/effects/BackgroundLineWrapper';
+import resume from "../../assets/resume-vinitchavan.pdf";
 
 function Hero() {
      const { theme } = useTheme();
@@ -53,7 +54,7 @@ function Hero() {
                               </a>
                          </span>
                          <p className={styles.description}>Passionate about building high-quality React web and mobile applications that drive commercial success.</p>
-                         <a href="https://drive.google.com/file/d/1rrjLluW9M87IWRkrkKgmW1_nMxaVfSzu/view?usp=drive_link" target='_blank'>
+                         <a href={resume} target='_blank'>
                               <button className={styles.resumeBtn} >Resume</button>
                          </a>
                          {/* <MarqueeText title={"WELCOME"} /> */}
