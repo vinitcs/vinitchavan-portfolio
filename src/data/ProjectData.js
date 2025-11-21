@@ -1,26 +1,9 @@
-import eviapp from "../assets/eviapp.png";
 import milk2market from "../assets/milk2market.png";
 import bms from "../assets/bms.png";
 
 export const projectData = [
   {
-    id: 1,
-    srcImage: eviapp,
-    title: "EVIApp (intern)",
-    description:
-      "Developed a registration app for Exposys Virtual Internship (EVI), enabling students to apply for various domains and receive in-app notifications upon application submission.",
-    githubLink: "https://github.com/vinitcs/EVI-app",
-    demoBtn: true,
-    demoLink:
-      "https://drive.google.com/file/d/1dVOUa5LBrvtnMc3-YDRyTy75dgFoTJQM/view?usp=sharing",
-    expLetterBtn: true,
-    expLetterLink:
-      "https://drive.google.com/file/d/1uZm91tsFrcIFjgyY6edJ_N1f-EjO6ma0/view?usp=sharing",
-    siteBtn: false,
-    siteLink: "",
-  },
-  {
-    id: 2,
+    id: 0,
     srcImage: milk2market,
     title: "Milk2Market dairy app",
     description:
@@ -35,7 +18,7 @@ export const projectData = [
     siteLink: "",
   },
   {
-    id: 3,
+    id: 1,
     srcImage: bms,
     title: "GIT bus card",
     description:

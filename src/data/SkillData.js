@@ -21,5 +21,4 @@ export const skillsData = [
   { icon: "github", label: "GitHub" },
   { icon: "postman", label: "Postman" },
   { icon: "figma", label: "Figma" },
-  // { icon: "canva", label: "Canva" },
 ];
