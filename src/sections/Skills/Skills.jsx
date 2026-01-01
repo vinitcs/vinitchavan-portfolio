@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './SkillsStyles.module.css';
 import SkillList from '../../components/SkillList/SkillList';
 // import InfiniteMarquee from '../../components/Marquee/InfiniteMarquee';

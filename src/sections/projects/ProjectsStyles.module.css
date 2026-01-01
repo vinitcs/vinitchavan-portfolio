@@ -126,6 +126,21 @@
                          color: var(--text-color);
                     }
                }
+
+               .disableActionBtnCapsule {
+                    background-color: var(--footer-text-color);
+                    color: var(--btn-text-color);
+                    padding: 0.4rem 0.6rem;
+                    border: none;
+                    border-radius: 12px;
+                    font-size: 0.8rem;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    cursor: pointer;
+                    font-family: 'Roboto Mono', monospace;
+                    cursor: not-allowed;
+               }
           }
      }
 

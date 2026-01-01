@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { projectData } from '../../data/ProjectData';
 import { FaGithub } from "react-icons/fa";
 import { IoMdDocument } from "react-icons/io";
-import { MdOndemandVideo } from "react-icons/md";
+import { FaRegHandPointRight } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { MdInsertLink } from "react-icons/md";
 
@@ -84,13 +84,20 @@ function Projects() {
                         <p>{data.description}</p>
 
                         <div className={styles.actionBtnSection}>
-                            <a href={data.githubLink} style={{ textDecoration: 'none' }} target="_blank">
-                                <button className={styles.actionBtnCapsule}><FaGithub size={16} style={{ position: 'relative', top: 2, right: 4 }} />Github</button>
-                            </a>
-                            {data.demoBtn &&
-                                <a href={data.demoLink} style={{ textDecoration: 'none' }} target="_blank">
+                            {data.githubBtn ? (
+
+
+                                <a href={data.githubLink} style={{ textDecoration: 'none' }} target="_blank">
+                                    <button className={styles.actionBtnCapsule}><FaGithub size={16} style={{ position: 'relative', top: 2, right: 4 }} />Github</button>
+                                </a>
+                            ) : (
+                                <button disabled={true} className={styles.disableActionBtnCapsule}><FaGithub size={16} style={{ position: 'relative', top: 2, right: 4 }} />Private Repo</button>
+                            )
+                            }
+                            {data.viewBtn &&
+                                <a href={data.viewLink} style={{ textDecoration: 'none' }} target="_blank">
                                     <button className={styles.actionBtnCapsule}
-                                    ><MdOndemandVideo size={16} style={{ position: 'relative', top: 2, right: 4 }} />Demo</button>
+                                    ><FaRegHandPointRight size={16} style={{ position: 'relative', top: 2, right: 4 }} />View</button>
                                 </a>
                             }
                             {data.expLetterBtn &&
@@ -98,8 +105,8 @@ function Projects() {
                                     <button className={styles.actionBtnCapsule}><IoMdDocument size={16} style={{ position: 'relative', top: 2, right: 4 }} />Experience Letter</button>
                                 </a>
                             }
-                            {data.siteBtn &&
-                                <a href={data.siteLink} style={{ textDecoration: 'none' }} target="_blank">
+                            {data.visitBtn &&
+                                <a href={data.visitLink} style={{ textDecoration: 'none' }} target="_blank">
                                     <button className={styles.actionBtnCapsule}><MdInsertLink size={16} style={{ position: 'relative', top: 2, right: 4 }} />Visit</button>
                                 </a>
                             }

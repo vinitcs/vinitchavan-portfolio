@@ -5,7 +5,13 @@ import {
   IoLogoNodejs,
   IoLogoGithub,
 } from "react-icons/io";
-import { FaReact, FaFigma, FaCcStripe, FaCloudflare, FaBootstrap } from "react-icons/fa";
+import {
+  FaReact,
+  FaFigma,
+  FaCcStripe,
+  FaCloudflare,
+  FaBootstrap,
+} from "react-icons/fa";
 import { MdGeneratingTokens } from "react-icons/md";
 import {
   SiReact,
@@ -17,6 +23,7 @@ import {
   SiGit,
   SiRedux,
   SiRazorpay,
+  SiCloudinary,
 } from "react-icons/si";
 import { FaServer } from "react-icons/fa6";
 import { RiFirebaseFill, RiTailwindCssFill } from "react-icons/ri";
@@ -46,6 +53,7 @@ export const iconMapping = {
   razorpay: SiRazorpay,
   firebase: RiFirebaseFill,
   cloudflare: FaCloudflare,
+  cloudinary: SiCloudinary,
 };
 
 {

@@ -5,7 +5,7 @@ export const experienceData = [
     companyName: "Savitar Solutions",
     roles: ["Backend Developer"],
     description:
-      "As a Node.js backend developer, I played a key role in designing, developing and optimizing the backend for a mobile application. My responsibilities included maintaining RESTful APIs with efficient query handling for high scalability. Managing development and production servers to ensure smooth deployments and uptime. Integrating payment checkout mechanisms using third-party gateways and implemented webhook listeners for automated transaction confirmations. Additionally, I developed a cloud media storage pipeline to store user-uploaded media files with category-based organization, enhancing searchability and data management efficiency. This contributed to a more reliable, maintainable, and performance-oriented backend.",
+      "Developed and optimized a Node.js backend with scalable RESTful APIs and efficient query handling. Managed development and production servers, ensuring smooth deployments and high uptime. Integrated payment webhook and cloud-based media storage for user-generated content.",
     exp: "https://drive.google.com/file/d/10_Lyzra7A4e0EgtmClpgL8gHxAlqZyGm/view?usp=sharing",
     // responsibilities: [
     //   "Developed and maintained backend APIs for a mobile app",
@@ -30,7 +30,7 @@ export const experienceData = [
     companyName: "Exposys Data Labs",
     roles: ["Frontend Developer"],
     description:
-      "Developed a virtual internship registration app, allowing students to apply for domains managed in online mode. Transitioned from a PHP web form to an app, integrating interactive illustrations and vector graphics to enhance UI/UX, which streamlined efficiency and boosted internship program applications.",
+      "Developed an internship registration mobile app enabling students to apply based on listed domains. Implemented Firebase for secure user data storage and authentication. Enhanced UI/UX using interactive illustrations and vectors, enhancing application efficiency and participation.",
     exp: "https://drive.google.com/file/d/1uZm91tsFrcIFjgyY6edJ_N1f-EjO6ma0/view?usp=sharing",
     // responsibilities: [
     //   "Developed and maintained backend APIs for a mobile app",
