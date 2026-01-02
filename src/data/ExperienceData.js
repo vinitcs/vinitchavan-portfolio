@@ -5,7 +5,7 @@ export const experienceData = [
     companyName: "Savitar Solutions",
     roles: ["Backend Developer"],
     description:
-      "Developed and optimized a Node.js backend with scalable RESTful APIs and efficient query handling. Managed development and production servers, ensuring smooth deployments and high uptime. Integrated payment webhook and cloud-based media storage for user-generated content.",
+      "Developed a Node.js backend with optimized RESTful APIs and efficient query handling. Managed development and production servers, ensuring smooth deployments and high uptime. Integrated payment webhook and cloud-based media storage for user-generated content.",
     exp: "https://drive.google.com/file/d/10_Lyzra7A4e0EgtmClpgL8gHxAlqZyGm/view?usp=sharing",
     // responsibilities: [
     //   "Developed and maintained backend APIs for a mobile app",
