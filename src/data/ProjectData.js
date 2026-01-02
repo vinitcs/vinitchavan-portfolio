@@ -9,8 +9,8 @@ export const projectData = [
     title: "LoopIn",
     description:
       "Developed a social media application with features including content posting, user mentions, hashtag support, likes, comments, following and profile management.",
-    githubBtn: false,
-    githubLink: "",
+    githubBtn: true,
+    githubLink: "https://github.com/vinitcs/loopin-frontend-app",
     viewBtn: true,
     viewLink:
       "https://drive.google.com/file/d/138nKbeIzudL_x-0kVH4nUe5CWUhwznGp/view",
