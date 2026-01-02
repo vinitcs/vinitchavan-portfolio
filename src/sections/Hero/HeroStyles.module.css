@@ -97,26 +97,15 @@ a {
      align-self: center;
 }
 
-.description {
-     /* background-color: #0000ff; */
-     max-width: 30rem;
-     align-self: center;
-     font-weight: 400;
-
-     strong {
-          color: var(--hover-color);
-     }
-}
-
 
 .resumeBtn {
      background-color: var(--btn-color);
      color: var(--btn-text-color);
      border: none;
-     border-radius: 20px;
-     width: 126px;
-     height: 50px;
-     font-size: 20px;
+     border-radius: 16px;
+     width: 100px;
+     height: 40px;
+     font-size: 18px;
      font-family: bold;
      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
      font-family: 'Roboto Mono', monospace;
@@ -301,13 +290,7 @@ h1 {
                gap: 0;
                align-items: center;
           }
-
-          .description {
-               /* background-color: #0000ff; */
-               max-width: 18rem;
-          }
-
-     }
+}
 
      .scrollDownText {
           visibility: hidden;

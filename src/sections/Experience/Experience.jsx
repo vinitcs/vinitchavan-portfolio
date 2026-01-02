@@ -21,7 +21,7 @@ function Experience() {
 
                               <div className={styles.actionBtnSection}>
                                    <a href={data.exp} target='_blank'>
-                                        <button className={styles.actionBtnCapsule}><IoMdDocument size={16} style={{ position: 'relative', top: 2, right: 4 }} />Experience Letter</button>
+                                        <button className={styles.actionBtnCapsule}><IoMdDocument size={16} style={{ position: 'relative', top: 2, right: 4 }} />Exp</button>
                                    </a>
                               </div>
                          }

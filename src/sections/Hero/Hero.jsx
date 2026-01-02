@@ -32,7 +32,9 @@ function Hero() {
                               <span>
                                    <Typewriter
                                         options={{
-                                             strings: ["Mern Stack Developer", "React Web and Native App", "React Developer", "Node.js Developer"],
+                                             strings: ["MERN Stack Developer",
+                                                  "React & Node.js Developer",
+                                                  "React Native App Developer"],
                                              autoStart: true,
                                              loop: true,
                                              deleteSpeed: 70,
@@ -53,7 +55,6 @@ function Hero() {
                                    <img src={linkedInIcon} alt="LinkedIn" />
                               </a>
                          </span>
-                         <p className={styles.description}>Passionate about building high-quality React web and mobile applications that drive commercial success.</p>
                          <a href={resume} target='_blank'>
                               <button className={styles.resumeBtn} >Resume</button>
                          </a>
