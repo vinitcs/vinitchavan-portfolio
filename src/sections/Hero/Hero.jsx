@@ -45,9 +45,9 @@ function Hero() {
                               </span>
                          </div>
                          <span>
-                              <a href="https://x.com/Vinit2k21" target='_blank'>
+                              {/* <a href="https://x.com/Vinit2k21" target='_blank'>
                                    <img src={twitterIcon} alt="Twitter" />
-                              </a>
+                              </a> */}
                               <a href="https://github.com/vinitcs" target='_blank'>
                                    <img src={githubIcon} alt="Github" />
                               </a>
