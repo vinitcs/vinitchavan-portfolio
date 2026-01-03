@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from './HeroStyles.module.css';
 // import profileImg from '../../assets/profile-pic.png';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedInLight from '../../assets/linkedin-light.svg';
@@ -16,7 +14,6 @@ import resume from "../../assets/resume-vinitchavan.pdf";
 
 function Hero() {
      const { theme } = useTheme();
-     const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
      const githubIcon = theme === 'light' ? githubLight : githubDark;
      const linkedInIcon = theme === 'light' ? linkedInLight : linkedInDark;
 
@@ -45,9 +42,6 @@ function Hero() {
                               </span>
                          </div>
                          <span>
-                              {/* <a href="https://x.com/Vinit2k21" target='_blank'>
-                                   <img src={twitterIcon} alt="Twitter" />
-                              </a> */}
                               <a href="https://github.com/vinitcs" target='_blank'>
                                    <img src={githubIcon} alt="Github" />
                               </a>
