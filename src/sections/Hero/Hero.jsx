@@ -10,7 +10,7 @@ import Typewriter from "typewriter-effect";
 // import MarqueeText from '../../components/Marquee/MarqueeText';
 // import scrollDownSVG from '../../assets/Animation - 1726335293902.json';
 import BackgroundLineWrapper from '../../components/effects/BackgroundLineWrapper';
-import resume from "../../assets/resume-vinitchavan.pdf";
+import resume from "../../assets/resumevinitchavan.pdf";
 
 function Hero() {
      const { theme } = useTheme();
