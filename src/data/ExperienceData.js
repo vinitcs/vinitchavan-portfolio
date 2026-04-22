@@ -6,7 +6,7 @@ export const experienceData = [
     roles: ["MERN Stack Developer"],
     exp: "https://drive.google.com/file/d/10_Lyzra7A4e0EgtmClpgL8gHxAlqZyGm/view?usp=sharing",
     responsibilities: [
-      "Maintained and enhanced the Admin dashboard of a service-based platform, including data visualization, pagination, and chart-based analytics.",
+      "Maintained and enhanced the admin dashboard featuring data visualization, pagination, and chart-based analytics.",
       "Developed a Node.js backend with optimized RESTful APIs and efficient query handling.",
       "Managed development and production servers, ensuring smooth deployments and high uptime.",
       "Integrated payment webhook and cloud-based media storage for user-generated content.",
@@ -33,7 +33,7 @@ export const experienceData = [
     responsibilities: [
       "Developed an internship registration mobile app enabling students to apply based on listed domains.",
       "Implemented Firebase for secure user data storage and authentication.",
-      "Enhanced UI/UX using interactive illustrations and vectors, enhancing application efficiency and participation.",
+      "Enhanced UI/UX using illustrations and vectors, enhancing application efficiency and participation.",
     ],
     stackUsed: [
       { icon: "reactnative", label: "React Native" },

@@ -11,12 +11,14 @@ import {
   FaCcStripe,
   FaCloudflare,
   FaBootstrap,
+  FaDocker,
 } from "react-icons/fa";
 import { MdGeneratingTokens } from "react-icons/md";
 import {
   SiReact,
   SiExpress,
   SiMongodb,
+  SiPrisma,
   SiMysql,
   SiPostman,
   SiCanva,
@@ -27,6 +29,7 @@ import {
 } from "react-icons/si";
 import { FaServer } from "react-icons/fa6";
 import { RiFirebaseFill, RiTailwindCssFill } from "react-icons/ri";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export const iconMapping = {
   html5: IoLogoHtml5,
@@ -41,6 +44,8 @@ export const iconMapping = {
   restapi: SiExpress,
   mysql: SiMysql,
   mongodb: SiMongodb,
+  postgresql: BiLogoPostgresql,
+  prisma: SiPrisma,
   jwt: MdGeneratingTokens,
   git: SiGit,
   github: IoLogoGithub,
@@ -54,6 +59,7 @@ export const iconMapping = {
   firebase: RiFirebaseFill,
   cloudflare: FaCloudflare,
   cloudinary: SiCloudinary,
+  docker: FaDocker,
 };
 
 {
