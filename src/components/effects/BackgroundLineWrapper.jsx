@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { paths } from "../../utils/effects/paths.js"
 import { colors } from "../../utils/colors/colors.js"
-import styles from "./BackgroundLineWrapperStyles.module.css"
+import styles from "./BackgroundLineWrapperStyles.module.scss"
 
 
 const pathVariants = {

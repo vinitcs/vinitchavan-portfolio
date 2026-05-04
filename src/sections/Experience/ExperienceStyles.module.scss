@@ -7,13 +7,13 @@
 
      /* p {
           font-size: 1rem;
-          color: var(--footer-text-color);
+          color: var(--text-tertiary);
      } */
 
      .cardContainer {
           width: 100%;
           height: fit-content;
-          border: 0.1px solid whitesmoke;
+          border: 0.1px solid var(--border);
           border-radius: 12px;
           display: flex;
           flex-direction: column;
@@ -23,7 +23,7 @@
           margin-bottom: 2rem;
 
           h4 {
-               color: var(--actionbtn-hover-color);
+               color: var(--interactive-primary);
           }
 
           h3 {
@@ -47,8 +47,8 @@
                     text-decoration: none;
 
                     .actionBtnCapsule {
-                         background-color: var(--btn-color);
-                         color: var(--btn-text-color);
+                         background-color: var(--button-bg);
+                         color: var(--button-text);
                          padding: 0.4rem 0.6rem;
                          border: none;
                          border-radius: 12px;
@@ -60,8 +60,8 @@
                          font-family: 'Roboto Mono', monospace;
 
                          &:hover {
-                              background-color: var(--hover-color);
-                              color: var(--text-color);
+                              background-color: var(--interactive-primary);
+                              color: var(--text-primary);
                          }
                     }
                }
@@ -80,14 +80,14 @@
                .listItem {
                     font-size: 1rem;
                     padding-left: 0.8rem;
-                    color: var(--text-color);
+                    color: var(--text-primary);
                }
 
                .listItem::marker {
                     content: "\2012";
                     padding-right: 1rem;
                     font-size: 1rem;
-                    color: black;
+                    color: var(--text-primary);
                }
           }
 
@@ -101,7 +101,7 @@
                .stackCapsule {
                     display: flex;
                     gap: 0.2rem;
-                    border: 0.1px solid whitesmoke;
+                    border: 0.1px solid var(--border);
                     border-radius: 12px;
                     padding: 0.3rem;
                     font-size: 0.8rem;
@@ -117,7 +117,7 @@
           .cardContainer {
                h4 {
                     font-size: 0.85rem;
-                    color: var(--actionbtn-hover-color);
+                    color: var(--interactive-primary);
                }
 
                h3 {

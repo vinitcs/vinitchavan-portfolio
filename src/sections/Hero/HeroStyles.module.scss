@@ -99,8 +99,8 @@ a {
 
 
 .resumeBtn {
-     background-color: var(--btn-color);
-     color: var(--btn-text-color);
+     background-color: var(--button-bg);
+     color: var(--button-text);
      border: none;
      border-radius: 16px;
      width: 100px;
@@ -114,8 +114,8 @@ a {
 
 .resumeBtn:hover {
      transform: scale(1.05);
-     color: var(--text-color);
-     background-color: var(--hover-color);
+     color: var(--text-primary);
+     background-color: var(--interactive-primary);
 }
 
 .resumeBtn:active {
@@ -195,7 +195,7 @@ h1 {
      gap: 0.4rem;
 
      span {
-          color: var(--hover-color);
+          color: var(--interactive-primary);
           font-size: 1.2rem;
           font-weight: 400;
           text-wrap: wrap;

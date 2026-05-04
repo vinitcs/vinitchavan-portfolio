@@ -1,4 +1,4 @@
-import styles from './SkillsStyles.module.css';
+import styles from './SkillsStyles.module.scss';
 import SkillList from '../../components/SkillList/SkillList';
 // import InfiniteMarquee from '../../components/Marquee/InfiniteMarquee';
 import { skillsData } from '../../data/SkillData';

@@ -1,31 +1,41 @@
-@import 'node_modules/vanilla-infinite-marquee/infinite-marquee.css';
-/* @import 'node_modules/vanilla-infinite-marquee/infinite-marquee.scss'; */
-
 :root {
-     --background-color: #fff;
-     --btn-color: #0987f2;
-     --actionbtn-color: #4ea7f6;
-     --actionbtn-hover-color: #0987f2;
-     --border-color: #bbb;
-     --btn-text-color: #fff;
-     --project-card-bg: #ffffff00;
-     --text-color: #222;
-     --hover-color: #0987f2;
-     --form-text-color: #555;
-     --footer-text-color: #888;
+     /* Background */
+     --bg-primary: #ffffff;
+     --bg-secondary: #f5f5f5;
+
+     /* Text */
+     --text-primary: #222222;       /* Main text */
+     --text-secondary: #555555;     /* Form text */
+     --text-tertiary: #888888;      /* Footer, muted text */
+
+     /* Interactive */
+     --interactive-primary: #0987f2;
+     --border: #f0f0f0;             /* Light mode: subtle light border */
+
+     /* Components */
+     --button-bg: #0987f2;
+     --button-text: #ffffff;
+     --card-bg: #ffffff00;
 }
 
 [data-theme="dark"] {
-     --background-color: #222;
-     --btn-color: #fff;
-     --actionbtn-color: #fff;
-     --actionbtn-hover-color: #0987f2;
-     --btn-text-color: #222;
-     --project-card-bg: #fff;
-     --text-color: #fff;
-     --hover-color: #0987f2;
-     --form-text-color: #fff;
-     --footer-text-color: #bbb;
+     /* Background */
+     --bg-primary: #222222;
+     --bg-secondary: #333333;
+
+     /* Text */
+     --text-primary: #ffffff;       /* Main text */
+     --text-secondary: #cccccc;     /* Form text */
+     --text-tertiary: #bbbbbb;      /* Footer, muted text */
+
+     /* Interactive */
+     --interactive-primary: #0987f2;
+     --border: #555555;
+
+     /* Components */
+     --button-bg: #ffffff;
+     --button-text: #222222;
+     --card-bg: #ffffff;
 }
 
 * {
@@ -33,7 +43,7 @@
 }
 
 body {
-     background-color: var(--background-color);
+     background-color: var(--bg-primary);
      display: flex;
      justify-content: center;
      margin: 0 auto 60px;
@@ -54,7 +64,7 @@ h3,
 h4,
 span,
 p {
-     color: var(--text-color);
+     color: var(--text-primary);
      margin: 0;
      padding: 0;
 }
@@ -118,7 +128,7 @@ p {
      left: 0;
      right: 0;
      height: 8px;
-     background: var(--actionbtn-hover-color);
+     background: var(--interactive-primary);
      transform-origin: 0%;
 }
 
@@ -132,7 +142,7 @@ p {
 } */
 ::-webkit-scrollbar-thumb {
      /* border-radius: 0.2rem; */
-     background: var(--btn-color);
+     background: var(--button-bg);
 }
 
 

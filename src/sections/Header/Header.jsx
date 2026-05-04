@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from "./HeaderStyles.module.css";
+import styles from "./HeaderStyles.module.scss";
 import { Link } from "react-scroll";
 import { useTheme } from '../../common/ThemeContext';
 import sun from '../../assets/sun.svg';

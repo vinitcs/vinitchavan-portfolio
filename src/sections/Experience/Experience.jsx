@@ -1,4 +1,4 @@
-import styles from "./ExperienceStyles.module.css";
+import styles from "./ExperienceStyles.module.scss";
 import { experienceData } from '../../data/ExperienceData';
 import { iconMapping } from '../../utils/icons/icons';
 import { IoMdDocument } from "react-icons/io"

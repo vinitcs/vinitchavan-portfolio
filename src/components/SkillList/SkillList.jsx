@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./SkillListStyles.module.css";
+import styles from "./SkillListStyles.module.scss";
 import { iconMapping } from '../../utils/icons/icons';
 
 

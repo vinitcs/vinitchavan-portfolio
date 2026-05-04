@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import styles from "./ParagraphStyles.module.css";
+import styles from "./ParagraphStyles.module.scss";
 import { useScroll, useTransform, motion } from 'framer-motion';
 
 export default function Paragraph({ value }) {

@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import styles from './HeroStyles.module.css';
+import styles from './HeroStyles.module.scss';
 // import profileImg from '../../assets/profile-pic.png';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';

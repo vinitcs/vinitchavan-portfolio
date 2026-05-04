@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './ContactStyles.module.css';
+import styles from './ContactStyles.module.scss';
 import { FaSquareWhatsapp } from "react-icons/fa6";
 
 function Contact() {

@@ -11,7 +11,7 @@
 .emailText {
      font-size: 0.8rem;
      margin-bottom: 1rem;
-     color: var(--border-color);
+     color: var(--border);
 }
 
 .email {
@@ -19,17 +19,17 @@
      margin-bottom: 2rem;
      text-decoration: none;
      font-family: "Big Shoulders Text";
-     color: var(--text-color);
+     color: var(--text-primary);
 }
 
 .email:hover {
-     color: var(--hover-color);
+     color: var(--interactive-primary);
 }
 
 .chatOnText {
      font-size: 1.2rem;
      margin-bottom: 1rem;
-     color: var(--border-color);
+     color: var(--border);
      gap: 0;
 
 }
@@ -45,7 +45,7 @@
 .orText {
      font-size: 0.8rem;
      margin-bottom: 1rem;
-     color: var(--border-color);
+     color: var(--border);
 }
 
 
@@ -72,20 +72,20 @@ textarea {
 input,
 textarea {
      border-radius: 20px;
-     border: #888 1px solid;
+     border: 1px solid var(--border);
      box-sizing: border-box;
      justify-self: center;
-     background-color: var(--background-color);
-     color: var(--form-text-color);
+     background-color: var(--bg-primary);
+     color: var(--text-secondary);
 }
 
 ::placeholder {
-     color: var(--form-text-color);
+     color: var(--text-secondary);
 }
 
 input[type='submit'] {
-     background-color: var(--btn-color);
-     color: var(--btn-text-color);
+     background-color: var(--button-bg);
+     color: var(--button-text);
      border: none;
      border-radius: 20px;
      width: 126px;
